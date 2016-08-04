@@ -1,0 +1,466 @@
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+[Tue Jun 21 15:09:54 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N701/unaligned_data.bam SAMPLE_NAME=N701    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:09:54 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:09:54	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:09:54	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:09:58	FastqToSam	Processed     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:10:02	FastqToSam	Processed     2,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:10:06	FastqToSam	Processed     3,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    4s.  Last read position: */*
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+[Tue Jun 21 15:10:39 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N701/unaligned_data.bam SAMPLE_NAME=N701    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:10:39 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:10:39	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:10:39	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:10:43	FastqToSam	Processed     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:10:47	FastqToSam	Processed     2,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:10:52	FastqToSam	Processed     3,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:10:56	FastqToSam	Processed     4,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:00	FastqToSam	Processed     5,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:04	FastqToSam	Processed     6,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:09	FastqToSam	Processed     7,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:13	FastqToSam	Processed     8,000,000 records.  Elapsed time: 00:00:33s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:17	FastqToSam	Processed     9,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:21	FastqToSam	Processed    10,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:25	FastqToSam	Processed    11,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:29	FastqToSam	Processed    12,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:11:33	FastqToSam	Processed    13,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:37	FastqToSam	Processed    14,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:42	FastqToSam	Processed    15,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:46	FastqToSam	Processed    16,000,000 records.  Elapsed time: 00:01:06s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:50	FastqToSam	Processed    17,000,000 records.  Elapsed time: 00:01:10s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:11:54	FastqToSam	Processed    18,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:11:59	FastqToSam	Processed    19,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:12:04	FastqToSam	Processed    20,000,000 records.  Elapsed time: 00:01:24s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:08	FastqToSam	Processed    21,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:12	FastqToSam	Processed    22,000,000 records.  Elapsed time: 00:01:32s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:17	FastqToSam	Processed    23,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:21	FastqToSam	Processed    24,000,000 records.  Elapsed time: 00:01:41s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:26	FastqToSam	Processed    25,000,000 records.  Elapsed time: 00:01:46s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:30	FastqToSam	Processed    26,000,000 records.  Elapsed time: 00:01:50s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:35	FastqToSam	Processed    27,000,000 records.  Elapsed time: 00:01:55s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:39	FastqToSam	Processed    28,000,000 records.  Elapsed time: 00:01:59s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:43	FastqToSam	Processed    29,000,000 records.  Elapsed time: 00:02:03s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:47	FastqToSam	Processed    30,000,000 records.  Elapsed time: 00:02:07s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:12:52	FastqToSam	Processed    31,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:12:57	FastqToSam	Processed    32,000,000 records.  Elapsed time: 00:02:17s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:01	FastqToSam	Processed    33,000,000 records.  Elapsed time: 00:02:21s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:06	FastqToSam	Processed    34,000,000 records.  Elapsed time: 00:02:26s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:10	FastqToSam	Processed    35,000,000 records.  Elapsed time: 00:02:30s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:13:14	FastqToSam	Processed    36,000,000 records.  Elapsed time: 00:02:34s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:18	FastqToSam	Processed    37,000,000 records.  Elapsed time: 00:02:38s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:23	FastqToSam	Processed    38,000,000 records.  Elapsed time: 00:02:43s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:27	FastqToSam	Processed    39,000,000 records.  Elapsed time: 00:02:47s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:31	FastqToSam	Processed    40,000,000 records.  Elapsed time: 00:02:52s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:36	FastqToSam	Processed    41,000,000 records.  Elapsed time: 00:02:56s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:41	FastqToSam	Processed    42,000,000 records.  Elapsed time: 00:03:01s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:13:45	FastqToSam	Processed    43,000,000 records.  Elapsed time: 00:03:05s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:50	FastqToSam	Processed    44,000,000 records.  Elapsed time: 00:03:10s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:54	FastqToSam	Processed    45,000,000 records.  Elapsed time: 00:03:14s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:13:58	FastqToSam	Processed    46,000,000 records.  Elapsed time: 00:03:18s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:14:02	FastqToSam	Processed    47,000,000 records.  Elapsed time: 00:03:22s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:14:06	FastqToSam	Processed    48,000,000 records.  Elapsed time: 00:03:26s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:14:11	FastqToSam	Processed    49,000,000 records.  Elapsed time: 00:03:31s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:14:15	FastqToSam	Processed    50,000,000 records.  Elapsed time: 00:03:35s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:14:19	FastqToSam	Processed    51,000,000 records.  Elapsed time: 00:03:39s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:14:23	FastqToSam	Processed    52,000,000 records.  Elapsed time: 00:03:43s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:14:27	FastqToSam	Processed    53,000,000 records.  Elapsed time: 00:03:47s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:14:32	FastqToSam	Processed    54,000,000 records.  Elapsed time: 00:03:52s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:14:36	FastqToSam	Processed    55,000,000 records.  Elapsed time: 00:03:56s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:14:40	FastqToSam	Processed    56,000,000 records.  Elapsed time: 00:04:00s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:14:44	FastqToSam	Processed    57,000,000 records.  Elapsed time: 00:04:04s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:14:47	FastqToSam	Processed    58,000,000 records.  Elapsed time: 00:04:07s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:14:52	FastqToSam	Processed    59,000,000 records.  Elapsed time: 00:04:12s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:14:56	FastqToSam	Processed    60,000,000 records.  Elapsed time: 00:04:16s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:15:00	FastqToSam	Processed    61,000,000 records.  Elapsed time: 00:04:20s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:15:04	FastqToSam	Processed    62,000,000 records.  Elapsed time: 00:04:24s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:15:08	FastqToSam	Processed    63,000,000 records.  Elapsed time: 00:04:28s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:15:12	FastqToSam	Processed    64,000,000 records.  Elapsed time: 00:04:32s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:15:16	FastqToSam	Processed    65,000,000 records.  Elapsed time: 00:04:36s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:15:20	FastqToSam	Processed    66,000,000 records.  Elapsed time: 00:04:40s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:15:24	FastqToSam	Processed    67,000,000 records.  Elapsed time: 00:04:45s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:15:29	FastqToSam	Processed    68,000,000 records.  Elapsed time: 00:04:49s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:15:33	FastqToSam	Processed    69,000,000 records.  Elapsed time: 00:04:53s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:15:37	FastqToSam	Processed    70,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:15:40	FastqToSam	Processed    71,000,000 records.  Elapsed time: 00:05:00s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:15:44	FastqToSam	Processed    72,000,000 records.  Elapsed time: 00:05:04s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:15:48	FastqToSam	Processed    73,000,000 records.  Elapsed time: 00:05:08s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:15:53	FastqToSam	Processed    74,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:15:57	FastqToSam	Processed    75,000,000 records.  Elapsed time: 00:05:17s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:16:01	FastqToSam	Processed    76,000,000 records.  Elapsed time: 00:05:21s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:16:05	FastqToSam	Processed    77,000,000 records.  Elapsed time: 00:05:25s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:16:09	FastqToSam	Processed    78,000,000 records.  Elapsed time: 00:05:29s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:16:13	FastqToSam	Processed    79,000,000 records.  Elapsed time: 00:05:33s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:16:17	FastqToSam	Processed    80,000,000 records.  Elapsed time: 00:05:38s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:16:21	FastqToSam	Processed    81,000,000 records.  Elapsed time: 00:05:42s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:16:25	FastqToSam	Processed    82,000,000 records.  Elapsed time: 00:05:45s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:16:29	FastqToSam	Processed    83,000,000 records.  Elapsed time: 00:05:49s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:16:33	FastqToSam	Processed    84,000,000 records.  Elapsed time: 00:05:53s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:16:37	FastqToSam	Processed    85,000,000 records.  Elapsed time: 00:05:57s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:16:41	FastqToSam	Processed    86,000,000 records.  Elapsed time: 00:06:02s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:16:46	FastqToSam	Processed    87,000,000 records.  Elapsed time: 00:06:06s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:16:49	FastqToSam	Processed    88,000,000 records.  Elapsed time: 00:06:09s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:16:53	FastqToSam	Processed    89,000,000 records.  Elapsed time: 00:06:13s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:16:57	FastqToSam	Processed    90,000,000 records.  Elapsed time: 00:06:17s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:17:01	FastqToSam	Processed    91,000,000 records.  Elapsed time: 00:06:21s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:06	FastqToSam	Processed    92,000,000 records.  Elapsed time: 00:06:26s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:10	FastqToSam	Processed    93,000,000 records.  Elapsed time: 00:06:30s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:13	FastqToSam	Processed    94,000,000 records.  Elapsed time: 00:06:33s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:17:17	FastqToSam	Processed    95,000,000 records.  Elapsed time: 00:06:37s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:21	FastqToSam	Processed    96,000,000 records.  Elapsed time: 00:06:41s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:17:25	FastqToSam	Processed    97,000,000 records.  Elapsed time: 00:06:45s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:29	FastqToSam	Processed    98,000,000 records.  Elapsed time: 00:06:50s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:34	FastqToSam	Processed    99,000,000 records.  Elapsed time: 00:06:54s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:37	FastqToSam	Processed   100,000,000 records.  Elapsed time: 00:06:58s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:17:41	FastqToSam	Processed   101,000,000 records.  Elapsed time: 00:07:01s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:17:45	FastqToSam	Processed   102,000,000 records.  Elapsed time: 00:07:05s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:50	FastqToSam	Processed   103,000,000 records.  Elapsed time: 00:07:10s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:54	FastqToSam	Processed   104,000,000 records.  Elapsed time: 00:07:14s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:17:58	FastqToSam	Processed   105,000,000 records.  Elapsed time: 00:07:18s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:25:01	FastqToSam	Processed 52710750 fastq reads
+[Tue Jun 21 15:25:01 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 14.37 minutes.
+Runtime.totalMemory()=1500512256
+[Tue Jun 21 15:25:02 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N702/unaligned_data.bam SAMPLE_NAME=N702    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:25:02 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:25:02	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:25:02	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:25:06	FastqToSam	Processed     1,000,000 records.  Elapsed time: 00:00:03s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:25:09	FastqToSam	Processed     2,000,000 records.  Elapsed time: 00:00:07s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:25:13	FastqToSam	Processed     3,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:25:17	FastqToSam	Processed     4,000,000 records.  Elapsed time: 00:00:15s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:25:22	FastqToSam	Processed     5,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:25:26	FastqToSam	Processed     6,000,000 records.  Elapsed time: 00:00:24s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:25:31	FastqToSam	Processed     7,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:25:35	FastqToSam	Processed     8,000,000 records.  Elapsed time: 00:00:33s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:25:40	FastqToSam	Processed     9,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:25:44	FastqToSam	Processed    10,000,000 records.  Elapsed time: 00:00:42s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:25:49	FastqToSam	Processed    11,000,000 records.  Elapsed time: 00:00:46s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:25:54	FastqToSam	Processed    12,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:25:59	FastqToSam	Processed    13,000,000 records.  Elapsed time: 00:00:56s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:03	FastqToSam	Processed    14,000,000 records.  Elapsed time: 00:01:01s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:08	FastqToSam	Processed    15,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:12	FastqToSam	Processed    16,000,000 records.  Elapsed time: 00:01:10s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:17	FastqToSam	Processed    17,000,000 records.  Elapsed time: 00:01:15s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:22	FastqToSam	Processed    18,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:26	FastqToSam	Processed    19,000,000 records.  Elapsed time: 00:01:24s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:30	FastqToSam	Processed    20,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:35	FastqToSam	Processed    21,000,000 records.  Elapsed time: 00:01:32s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:39	FastqToSam	Processed    22,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:44	FastqToSam	Processed    23,000,000 records.  Elapsed time: 00:01:42s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:26:49	FastqToSam	Processed    24,000,000 records.  Elapsed time: 00:01:47s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:54	FastqToSam	Processed    25,000,000 records.  Elapsed time: 00:01:51s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:26:58	FastqToSam	Processed    26,000,000 records.  Elapsed time: 00:01:56s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:03	FastqToSam	Processed    27,000,000 records.  Elapsed time: 00:02:00s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:08	FastqToSam	Processed    28,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:27:13	FastqToSam	Processed    29,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:18	FastqToSam	Processed    30,000,000 records.  Elapsed time: 00:02:15s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:22	FastqToSam	Processed    31,000,000 records.  Elapsed time: 00:02:20s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:27	FastqToSam	Processed    32,000,000 records.  Elapsed time: 00:02:25s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:31	FastqToSam	Processed    33,000,000 records.  Elapsed time: 00:02:29s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:36	FastqToSam	Processed    34,000,000 records.  Elapsed time: 00:02:34s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:41	FastqToSam	Processed    35,000,000 records.  Elapsed time: 00:02:39s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:46	FastqToSam	Processed    36,000,000 records.  Elapsed time: 00:02:43s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:50	FastqToSam	Processed    37,000,000 records.  Elapsed time: 00:02:48s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:55	FastqToSam	Processed    38,000,000 records.  Elapsed time: 00:02:52s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:27:59	FastqToSam	Processed    39,000,000 records.  Elapsed time: 00:02:56s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:04	FastqToSam	Processed    40,000,000 records.  Elapsed time: 00:03:02s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:28:08	FastqToSam	Processed    41,000,000 records.  Elapsed time: 00:03:06s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:13	FastqToSam	Processed    42,000,000 records.  Elapsed time: 00:03:11s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:17	FastqToSam	Processed    43,000,000 records.  Elapsed time: 00:03:15s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:21	FastqToSam	Processed    44,000,000 records.  Elapsed time: 00:03:19s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:26	FastqToSam	Processed    45,000,000 records.  Elapsed time: 00:03:24s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:31	FastqToSam	Processed    46,000,000 records.  Elapsed time: 00:03:29s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:35	FastqToSam	Processed    47,000,000 records.  Elapsed time: 00:03:33s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:40	FastqToSam	Processed    48,000,000 records.  Elapsed time: 00:03:38s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:45	FastqToSam	Processed    49,000,000 records.  Elapsed time: 00:03:42s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:50	FastqToSam	Processed    50,000,000 records.  Elapsed time: 00:03:47s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:28:54	FastqToSam	Processed    51,000,000 records.  Elapsed time: 00:03:52s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:28:59	FastqToSam	Processed    52,000,000 records.  Elapsed time: 00:03:56s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:03	FastqToSam	Processed    53,000,000 records.  Elapsed time: 00:04:00s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:29:06	FastqToSam	Processed    54,000,000 records.  Elapsed time: 00:04:04s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:29:11	FastqToSam	Processed    55,000,000 records.  Elapsed time: 00:04:08s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:15	FastqToSam	Processed    56,000,000 records.  Elapsed time: 00:04:13s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:20	FastqToSam	Processed    57,000,000 records.  Elapsed time: 00:04:18s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:25	FastqToSam	Processed    58,000,000 records.  Elapsed time: 00:04:23s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:30	FastqToSam	Processed    59,000,000 records.  Elapsed time: 00:04:27s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:35	FastqToSam	Processed    60,000,000 records.  Elapsed time: 00:04:32s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:40	FastqToSam	Processed    61,000,000 records.  Elapsed time: 00:04:37s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:29:45	FastqToSam	Processed    62,000,000 records.  Elapsed time: 00:04:42s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:49	FastqToSam	Processed    63,000,000 records.  Elapsed time: 00:04:47s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:54	FastqToSam	Processed    64,000,000 records.  Elapsed time: 00:04:52s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:29:59	FastqToSam	Processed    65,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:30:04	FastqToSam	Processed    66,000,000 records.  Elapsed time: 00:05:01s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:30:09	FastqToSam	Processed    67,000,000 records.  Elapsed time: 00:05:06s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:30:14	FastqToSam	Processed    68,000,000 records.  Elapsed time: 00:05:12s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:30:19	FastqToSam	Processed    69,000,000 records.  Elapsed time: 00:05:17s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:30:23	FastqToSam	Processed    70,000,000 records.  Elapsed time: 00:05:21s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:30:28	FastqToSam	Processed    71,000,000 records.  Elapsed time: 00:05:25s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:30:33	FastqToSam	Processed    72,000,000 records.  Elapsed time: 00:05:30s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:30:38	FastqToSam	Processed    73,000,000 records.  Elapsed time: 00:05:36s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:30:43	FastqToSam	Processed    74,000,000 records.  Elapsed time: 00:05:40s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:30:49	FastqToSam	Processed    75,000,000 records.  Elapsed time: 00:05:47s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-06-21 15:30:53	FastqToSam	Processed    76,000,000 records.  Elapsed time: 00:05:51s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:30:58	FastqToSam	Processed    77,000,000 records.  Elapsed time: 00:05:56s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:04	FastqToSam	Processed    78,000,000 records.  Elapsed time: 00:06:01s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:31:08	FastqToSam	Processed    79,000,000 records.  Elapsed time: 00:06:06s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:12	FastqToSam	Processed    80,000,000 records.  Elapsed time: 00:06:10s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:17	FastqToSam	Processed    81,000,000 records.  Elapsed time: 00:06:15s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:22	FastqToSam	Processed    82,000,000 records.  Elapsed time: 00:06:19s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:27	FastqToSam	Processed    83,000,000 records.  Elapsed time: 00:06:24s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:32	FastqToSam	Processed    84,000,000 records.  Elapsed time: 00:06:30s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:31:36	FastqToSam	Processed    85,000,000 records.  Elapsed time: 00:06:34s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:40	FastqToSam	Processed    86,000,000 records.  Elapsed time: 00:06:38s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:31:44	FastqToSam	Processed    87,000,000 records.  Elapsed time: 00:06:41s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:31:48	FastqToSam	Processed    88,000,000 records.  Elapsed time: 00:06:46s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:53	FastqToSam	Processed    89,000,000 records.  Elapsed time: 00:06:51s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:31:58	FastqToSam	Processed    90,000,000 records.  Elapsed time: 00:06:56s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:32:03	FastqToSam	Processed    91,000,000 records.  Elapsed time: 00:07:01s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:32:08	FastqToSam	Processed    92,000,000 records.  Elapsed time: 00:07:06s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:32:13	FastqToSam	Processed    93,000,000 records.  Elapsed time: 00:07:10s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:32:18	FastqToSam	Processed    94,000,000 records.  Elapsed time: 00:07:15s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:32:23	FastqToSam	Processed    95,000,000 records.  Elapsed time: 00:07:20s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:32:28	FastqToSam	Processed    96,000,000 records.  Elapsed time: 00:07:25s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:32:32	FastqToSam	Processed    97,000,000 records.  Elapsed time: 00:07:29s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:32:37	FastqToSam	Processed    98,000,000 records.  Elapsed time: 00:07:35s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:32:42	FastqToSam	Processed    99,000,000 records.  Elapsed time: 00:07:40s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:32:47	FastqToSam	Processed   100,000,000 records.  Elapsed time: 00:07:44s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:32:51	FastqToSam	Processed   101,000,000 records.  Elapsed time: 00:07:49s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:32:56	FastqToSam	Processed   102,000,000 records.  Elapsed time: 00:07:53s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:33:00	FastqToSam	Processed   103,000,000 records.  Elapsed time: 00:07:58s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:33:06	FastqToSam	Processed   104,000,000 records.  Elapsed time: 00:08:03s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:33:11	FastqToSam	Processed   105,000,000 records.  Elapsed time: 00:08:08s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:33:15	FastqToSam	Processed   106,000,000 records.  Elapsed time: 00:08:13s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:33:20	FastqToSam	Processed   107,000,000 records.  Elapsed time: 00:08:18s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:33:25	FastqToSam	Processed   108,000,000 records.  Elapsed time: 00:08:22s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:33:30	FastqToSam	Processed   109,000,000 records.  Elapsed time: 00:08:27s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:33:34	FastqToSam	Processed   110,000,000 records.  Elapsed time: 00:08:32s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:33:39	FastqToSam	Processed   111,000,000 records.  Elapsed time: 00:08:37s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:33:46	FastqToSam	Processed   112,000,000 records.  Elapsed time: 00:08:43s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-06-21 15:33:51	FastqToSam	Processed   113,000,000 records.  Elapsed time: 00:08:48s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:33:55	FastqToSam	Processed   114,000,000 records.  Elapsed time: 00:08:53s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:33:59	FastqToSam	Processed   115,000,000 records.  Elapsed time: 00:08:56s.  Time for last 1,000,000:    3s.  Last read position: */*
+INFO	2016-06-21 15:34:04	FastqToSam	Processed   116,000,000 records.  Elapsed time: 00:09:02s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:34:10	FastqToSam	Processed   117,000,000 records.  Elapsed time: 00:09:07s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:34:15	FastqToSam	Processed   118,000,000 records.  Elapsed time: 00:09:12s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:34:20	FastqToSam	Processed   119,000,000 records.  Elapsed time: 00:09:17s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:34:24	FastqToSam	Processed   120,000,000 records.  Elapsed time: 00:09:22s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:34:29	FastqToSam	Processed   121,000,000 records.  Elapsed time: 00:09:27s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:43:45	FastqToSam	Processed 60940044 fastq reads
+[Tue Jun 21 15:43:45 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 18.72 minutes.
+Runtime.totalMemory()=1491075072
+[Tue Jun 21 15:43:46 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N703/unaligned_data.bam SAMPLE_NAME=N703    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:43:46 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:43:46	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:43:46	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:43:51	FastqToSam	Processed     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:43:56	FastqToSam	Processed     2,000,000 records.  Elapsed time: 00:00:09s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:44:01	FastqToSam	Processed     3,000,000 records.  Elapsed time: 00:00:14s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:44:07	FastqToSam	Processed     4,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:44:12	FastqToSam	Processed     5,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:44:17	FastqToSam	Processed     6,000,000 records.  Elapsed time: 00:00:30s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:44:21	FastqToSam	Processed     7,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:44:27	FastqToSam	Processed     8,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:44:32	FastqToSam	Processed     9,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:44:38	FastqToSam	Processed    10,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:44:43	FastqToSam	Processed    11,000,000 records.  Elapsed time: 00:00:56s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:44:48	FastqToSam	Processed    12,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:44:54	FastqToSam	Processed    13,000,000 records.  Elapsed time: 00:01:07s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:44:58	FastqToSam	Processed    14,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:45:04	FastqToSam	Processed    15,000,000 records.  Elapsed time: 00:01:17s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:45:09	FastqToSam	Processed    16,000,000 records.  Elapsed time: 00:01:22s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:45:14	FastqToSam	Processed    17,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:45:19	FastqToSam	Processed    18,000,000 records.  Elapsed time: 00:01:32s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:45:25	FastqToSam	Processed    19,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:45:30	FastqToSam	Processed    20,000,000 records.  Elapsed time: 00:01:43s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:45:35	FastqToSam	Processed    21,000,000 records.  Elapsed time: 00:01:48s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:45:40	FastqToSam	Processed    22,000,000 records.  Elapsed time: 00:01:53s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:45:45	FastqToSam	Processed    23,000,000 records.  Elapsed time: 00:01:58s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:45:50	FastqToSam	Processed    24,000,000 records.  Elapsed time: 00:02:03s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:45:55	FastqToSam	Processed    25,000,000 records.  Elapsed time: 00:02:08s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:45:59	FastqToSam	Processed    26,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:46:04	FastqToSam	Processed    27,000,000 records.  Elapsed time: 00:02:17s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:46:09	FastqToSam	Processed    28,000,000 records.  Elapsed time: 00:02:22s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:46:14	FastqToSam	Processed    29,000,000 records.  Elapsed time: 00:02:27s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:46:19	FastqToSam	Processed    30,000,000 records.  Elapsed time: 00:02:32s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:46:23	FastqToSam	Processed    31,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:46:28	FastqToSam	Processed    32,000,000 records.  Elapsed time: 00:02:41s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:46:32	FastqToSam	Processed    33,000,000 records.  Elapsed time: 00:02:45s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:46:37	FastqToSam	Processed    34,000,000 records.  Elapsed time: 00:02:51s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:46:43	FastqToSam	Processed    35,000,000 records.  Elapsed time: 00:02:56s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:46:48	FastqToSam	Processed    36,000,000 records.  Elapsed time: 00:03:01s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:46:53	FastqToSam	Processed    37,000,000 records.  Elapsed time: 00:03:06s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:46:58	FastqToSam	Processed    38,000,000 records.  Elapsed time: 00:03:11s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:47:03	FastqToSam	Processed    39,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:47:08	FastqToSam	Processed    40,000,000 records.  Elapsed time: 00:03:21s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:47:13	FastqToSam	Processed    41,000,000 records.  Elapsed time: 00:03:26s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:47:19	FastqToSam	Processed    42,000,000 records.  Elapsed time: 00:03:32s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:47:24	FastqToSam	Processed    43,000,000 records.  Elapsed time: 00:03:37s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:47:29	FastqToSam	Processed    44,000,000 records.  Elapsed time: 00:03:42s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:47:34	FastqToSam	Processed    45,000,000 records.  Elapsed time: 00:03:47s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:47:39	FastqToSam	Processed    46,000,000 records.  Elapsed time: 00:03:52s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:47:44	FastqToSam	Processed    47,000,000 records.  Elapsed time: 00:03:57s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:47:50	FastqToSam	Processed    48,000,000 records.  Elapsed time: 00:04:03s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:47:55	FastqToSam	Processed    49,000,000 records.  Elapsed time: 00:04:08s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:48:00	FastqToSam	Processed    50,000,000 records.  Elapsed time: 00:04:13s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:48:05	FastqToSam	Processed    51,000,000 records.  Elapsed time: 00:04:18s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:48:11	FastqToSam	Processed    52,000,000 records.  Elapsed time: 00:04:24s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:48:16	FastqToSam	Processed    53,000,000 records.  Elapsed time: 00:04:30s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:48:23	FastqToSam	Processed    54,000,000 records.  Elapsed time: 00:04:36s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-06-21 15:48:27	FastqToSam	Processed    55,000,000 records.  Elapsed time: 00:04:40s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:48:32	FastqToSam	Processed    56,000,000 records.  Elapsed time: 00:04:46s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:48:38	FastqToSam	Processed    57,000,000 records.  Elapsed time: 00:04:51s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:48:44	FastqToSam	Processed    58,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-06-21 15:48:49	FastqToSam	Processed    59,000,000 records.  Elapsed time: 00:05:02s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:48:55	FastqToSam	Processed    60,000,000 records.  Elapsed time: 00:05:08s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:49:00	FastqToSam	Processed    61,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:49:05	FastqToSam	Processed    62,000,000 records.  Elapsed time: 00:05:18s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:49:09	FastqToSam	Processed    63,000,000 records.  Elapsed time: 00:05:23s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:49:14	FastqToSam	Processed    64,000,000 records.  Elapsed time: 00:05:27s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:49:22	FastqToSam	Processed    65,000,000 records.  Elapsed time: 00:05:35s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-06-21 15:49:28	FastqToSam	Processed    66,000,000 records.  Elapsed time: 00:05:41s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-06-21 15:49:33	FastqToSam	Processed    67,000,000 records.  Elapsed time: 00:05:46s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:49:37	FastqToSam	Processed    68,000,000 records.  Elapsed time: 00:05:50s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:49:42	FastqToSam	Processed    69,000,000 records.  Elapsed time: 00:05:55s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:49:48	FastqToSam	Processed    70,000,000 records.  Elapsed time: 00:06:01s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:49:54	FastqToSam	Processed    71,000,000 records.  Elapsed time: 00:06:07s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-06-21 15:49:59	FastqToSam	Processed    72,000,000 records.  Elapsed time: 00:06:12s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:50:03	FastqToSam	Processed    73,000,000 records.  Elapsed time: 00:06:17s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:50:08	FastqToSam	Processed    74,000,000 records.  Elapsed time: 00:06:22s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:50:13	FastqToSam	Processed    75,000,000 records.  Elapsed time: 00:06:26s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:50:19	FastqToSam	Processed    76,000,000 records.  Elapsed time: 00:06:32s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:50:24	FastqToSam	Processed    77,000,000 records.  Elapsed time: 00:06:37s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:50:29	FastqToSam	Processed    78,000,000 records.  Elapsed time: 00:06:42s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:50:34	FastqToSam	Processed    79,000,000 records.  Elapsed time: 00:06:47s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:50:40	FastqToSam	Processed    80,000,000 records.  Elapsed time: 00:06:53s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-06-21 15:50:45	FastqToSam	Processed    81,000,000 records.  Elapsed time: 00:06:58s.  Time for last 1,000,000:    4s.  Last read position: */*
+INFO	2016-06-21 15:57:31	FastqToSam	Processed 40916649 fastq reads
+[Tue Jun 21 15:57:31 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 13.75 minutes.
+Runtime.totalMemory()=1573388288
+[Tue Jun 21 15:57:32 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N704.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N704.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N704/unaligned_data.bam SAMPLE_NAME=N704    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:32 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:32	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:32	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:32	FastqToSam	Processed 369 fastq reads
+[Tue Jun 21 15:57:32 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:33 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N705.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N705.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N705/unaligned_data.bam SAMPLE_NAME=N705    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:33 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:33	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:33	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:33	FastqToSam	Processed 272 fastq reads
+[Tue Jun 21 15:57:33 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.01 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:34 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N706.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N706.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N706/unaligned_data.bam SAMPLE_NAME=N706    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:34 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:34	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:34	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:34	FastqToSam	Processed 308 fastq reads
+[Tue Jun 21 15:57:34 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:35 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N707.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N707.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N707/unaligned_data.bam SAMPLE_NAME=N707    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:35 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:35	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:35	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:35	FastqToSam	Processed 20 fastq reads
+[Tue Jun 21 15:57:35 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:35 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N710.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N710.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N710/unaligned_data.bam SAMPLE_NAME=N710    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:35 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:35	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:35	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:35	FastqToSam	Processed 14 fastq reads
+[Tue Jun 21 15:57:35 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:36 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N711.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N711.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N711/unaligned_data.bam SAMPLE_NAME=N711    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:36 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:36	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:36	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:36	FastqToSam	Processed 12 fastq reads
+[Tue Jun 21 15:57:36 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:36 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N712.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N712.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N712/unaligned_data.bam SAMPLE_NAME=N712    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:36 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:37	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:37	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:37	FastqToSam	Processed 20 fastq reads
+[Tue Jun 21 15:57:37 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:37 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N714.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N714.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N714/unaligned_data.bam SAMPLE_NAME=N714    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:37 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+[Tue Jun 21 15:57:37 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+To get help, see http://broadinstitute.github.io/picard/index.html#GettingHelp
+Exception in thread "main" htsjdk.samtools.SAMException: Cannot determine candidate qualities: no qualities found.
+	at htsjdk.samtools.util.QualityEncodingDetector.generateCandidateQualities(QualityEncodingDetector.java:228)
+	at htsjdk.samtools.util.QualityEncodingDetector.generateBestGuess(QualityEncodingDetector.java:370)
+	at picard.sam.FastqToSam.determineQualityFormat(FastqToSam.java:158)
+	at picard.sam.FastqToSam.doWork(FastqToSam.java:185)
+	at picard.cmdline.CommandLineProgram.instanceMain(CommandLineProgram.java:206)
+	at picard.cmdline.PicardCommandLine.instanceMain(PicardCommandLine.java:95)
+	at picard.cmdline.PicardCommandLine.main(PicardCommandLine.java:105)
+[Tue Jun 21 15:57:38 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N715.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N715.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N715/unaligned_data.bam SAMPLE_NAME=N715    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:38 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:38	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:38	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:38	FastqToSam	Processed 3 fastq reads
+[Tue Jun 21 15:57:38 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:39 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N716.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N716.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N716/unaligned_data.bam SAMPLE_NAME=N716    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:39 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:39	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:39	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:39	FastqToSam	Processed 2 fastq reads
+[Tue Jun 21 15:57:39 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.01 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:39 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N718.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N718.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N718/unaligned_data.bam SAMPLE_NAME=N718    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:39 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:39	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:39	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:40	FastqToSam	Processed 2 fastq reads
+[Tue Jun 21 15:57:40 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:40 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N719.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N719.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N719/unaligned_data.bam SAMPLE_NAME=N719    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:40 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:40	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:40	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:40	FastqToSam	Processed 80 fastq reads
+[Tue Jun 21 15:57:40 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:41 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N720.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N720.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N720/unaligned_data.bam SAMPLE_NAME=N720    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:41 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:41	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:41	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:41	FastqToSam	Processed 1 fastq reads
+[Tue Jun 21 15:57:41 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:41 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N721.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N721.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N721/unaligned_data.bam SAMPLE_NAME=N721    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:41 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:41	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:41	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:41	FastqToSam	Processed 3 fastq reads
+[Tue Jun 21 15:57:41 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:42 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N722.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N722.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N722/unaligned_data.bam SAMPLE_NAME=N722    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:42 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:42	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:42	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:42	FastqToSam	Processed 1 fastq reads
+[Tue Jun 21 15:57:42 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:43 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N723.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N723.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N723/unaligned_data.bam SAMPLE_NAME=N723    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:43 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:43	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:43	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:43	FastqToSam	Processed 13 fastq reads
+[Tue Jun 21 15:57:43 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272
+[Tue Jun 21 15:57:43 PDT 2016] picard.sam.FastqToSam FASTQ=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N724.R1.fastq.gz FASTQ2=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N724.R1.fastq.gz QUALITY_FORMAT=Illumina OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/SxaQSEQsXap108L1/N724/unaligned_data.bam SAMPLE_NAME=N724    READ_GROUP_NAME=A SORT_ORDER=queryname MIN_Q=0 MAX_Q=93 STRIP_UNPAIRED_MATE_NUMBER=false ALLOW_AND_IGNORE_EMPTY_LINES=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Tue Jun 21 15:57:43 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+WARNING	2016-06-21 15:57:43	FastqToSam	Making ambiguous determination about fastq's quality encoding; more than one format possible based on observed qualities.
+INFO	2016-06-21 15:57:43	FastqToSam	Auto-detected quality format as: Illumina.
+INFO	2016-06-21 15:57:43	FastqToSam	Processed 2 fastq reads
+[Tue Jun 21 15:57:43 PDT 2016] picard.sam.FastqToSam done. Elapsed time: 0.00 minutes.
+Runtime.totalMemory()=2028470272

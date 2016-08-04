@@ -1,0 +1,195 @@
+Sample info file: ../metadata/Nextera_Indexes.xlsx 
+Pool directory: ../data/qseq 
+Number of lanes: 2 
+
+Lane: 1
+Working on directory: ../data/qseq/SxaQSEQsXap108L1 
+Out directory: ../data/fastq/SxaQSEQsXap108L1 
+Merging two paired reads from qseq files
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1101_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1101_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1101_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1101.txt...  Thu Jul 14 16:48:25 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1102_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1102_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1102_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1102.txt...  Thu Jul 14 16:48:51 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1103_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1103_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1103_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1103.txt...  Thu Jul 14 16:49:17 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1104_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1104_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1104_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1104.txt...  Thu Jul 14 16:49:42 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1105_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1105_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1105_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1105.txt...  Thu Jul 14 16:50:08 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1106_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1106_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1106_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1106.txt...  Thu Jul 14 16:50:35 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1107_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1107_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1107_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1107.txt...  Thu Jul 14 16:51:02 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1108_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1108_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1108_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1108.txt...  Thu Jul 14 16:51:30 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1109_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1109_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1109_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1109.txt...  Thu Jul 14 16:51:58 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1110_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1110_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1110_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1110.txt...  Thu Jul 14 16:52:28 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1111_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1111_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1111_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1111.txt...  Thu Jul 14 16:52:57 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1112_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1112_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1112_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1112.txt...  Thu Jul 14 16:53:28 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1113_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1113_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1113_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1113.txt...  Thu Jul 14 16:54:00 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1114_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1114_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1114_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1114.txt...  Thu Jul 14 16:54:33 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1115_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1115_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1115_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1115.txt...  Thu Jul 14 16:55:05 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1116_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1116_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1116_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1116.txt...  Thu Jul 14 16:55:40 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1201_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1201_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1201_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1201.txt...  Thu Jul 14 16:56:16 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1202_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1202_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1202_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1202.txt...  Thu Jul 14 16:56:42 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1203_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1203_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1203_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1203.txt...  Thu Jul 14 16:57:08 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1204_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1204_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1204_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1204.txt...  Thu Jul 14 16:57:34 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1205_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1205_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1205_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1205.txt...  Thu Jul 14 16:58:01 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1206_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1206_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1206_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1206.txt...  Thu Jul 14 16:58:30 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1207_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1207_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1207_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1207.txt...  Thu Jul 14 16:58:58 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1208_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1208_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1208_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1208.txt...  Thu Jul 14 16:59:27 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1209_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1209_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1209_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1209.txt...  Thu Jul 14 16:59:58 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1210_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1210_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1210_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1210.txt...  Thu Jul 14 17:00:28 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1211_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1211_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1211_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1211.txt...  Thu Jul 14 17:00:59 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1212_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1212_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1212_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1212.txt...  Thu Jul 14 17:01:32 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1213_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1213_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1213_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1213.txt...  Thu Jul 14 17:02:05 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1214_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1214_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1214_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1214.txt...  Thu Jul 14 17:02:38 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1215_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1215_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1215_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1215.txt...  Thu Jul 14 17:03:12 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_1216_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_1216_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_1216_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_1216.txt...  Thu Jul 14 17:03:47 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2101_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2101_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2101_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2101.txt...  Thu Jul 14 17:04:23 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2102_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2102_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2102_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2102.txt...  Thu Jul 14 17:04:48 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2103_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2103_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2103_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2103.txt...  Thu Jul 14 17:05:14 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2104_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2104_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2104_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2104.txt...  Thu Jul 14 17:05:41 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2105_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2105_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2105_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2105.txt...  Thu Jul 14 17:06:07 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2106_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2106_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2106_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2106.txt...  Thu Jul 14 17:06:34 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2107_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2107_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2107_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2107.txt...  Thu Jul 14 17:07:01 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2108_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2108_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2108_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2108.txt...  Thu Jul 14 17:07:30 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2109_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2109_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2109_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2109.txt...  Thu Jul 14 17:07:59 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2110_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2110_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2110_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2110.txt...  Thu Jul 14 17:08:29 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2111_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2111_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2111_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2111.txt...  Thu Jul 14 17:08:58 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2112_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2112_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2112_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2112.txt...  Thu Jul 14 17:09:29 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2113_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2113_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2113_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2113.txt...  Thu Jul 14 17:10:01 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2114_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2114_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2114_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2114.txt...  Thu Jul 14 17:10:32 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2115_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2115_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2115_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2115.txt...  Thu Jul 14 17:11:05 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2116_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2116_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2116_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2116.txt...  Thu Jul 14 17:11:40 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2201_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2201_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2201_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2201.txt...  Thu Jul 14 17:12:16 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2202_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2202_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2202_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2202.txt...  Thu Jul 14 17:12:42 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2203_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2203_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2203_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2203.txt...  Thu Jul 14 17:13:08 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2204_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2204_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2204_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2204.txt...  Thu Jul 14 17:13:34 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2205_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2205_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2205_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2205.txt...  Thu Jul 14 17:14:02 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2206_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2206_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2206_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2206.txt...  Thu Jul 14 17:14:30 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2207_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2207_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2207_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2207.txt...  Thu Jul 14 17:14:59 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2208_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2208_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2208_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2208.txt...  Thu Jul 14 17:15:28 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2209_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2209_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2209_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2209.txt...  Thu Jul 14 17:15:57 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2210_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2210_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2210_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2210.txt...  Thu Jul 14 17:16:28 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2211_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2211_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2211_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2211.txt...  Thu Jul 14 17:16:59 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2212_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2212_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2212_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2212.txt...  Thu Jul 14 17:17:31 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2213_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2213_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2213_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2213.txt...  Thu Jul 14 17:18:04 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2214_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2214_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2214_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2214.txt...  Thu Jul 14 17:18:38 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2215_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2215_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2215_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2215.txt...  Thu Jul 14 17:19:12 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap108L1/s_1_2_2216_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_1_2216_qseq.txt.gz ../data/qseq/SxaQSEQsXap108L1/s_1_3_2216_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap108L1/s_1_2216.txt...  Thu Jul 14 17:19:47 PDT 2016
+@@@ Done.  Thu Jul 14 17:20:24 PDT 2016
+Merging all qseq files into one large file
+Counting the number of reads in the lane
+Number of unfiltered reads in the lane: 170506707 
+Filtering the reads to take only PF = 1
+Number of filtered reads in the lane: 159010549 
+Percentage of useable reads: 93 %
+QSUBing Sample N701 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N702 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N703 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N704 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N705 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N706 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N707 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N710 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N711 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N712 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N714 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N715 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N716 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N718 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N719 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N720 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N721 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N722 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N723 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N724 for de-muliplexing and converting to FASTQ...
+
+Lane: 2
+Working on directory: ../data/qseq/SxaQSEQsXap110L1 
+Out directory: ../data/fastq/SxaQSEQsXap110L1 
+Merging two paired reads from qseq files
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1101_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1101_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1101_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1101.txt...  Thu Jul 14 17:39:43 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1102_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1102_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1102_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1102.txt...  Thu Jul 14 17:40:16 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1103_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1103_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1103_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1103.txt...  Thu Jul 14 17:40:51 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1104_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1104_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1104_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1104.txt...  Thu Jul 14 17:41:26 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1105_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1105_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1105_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1105.txt...  Thu Jul 14 17:42:00 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1106_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1106_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1106_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1106.txt...  Thu Jul 14 17:42:36 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1107_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1107_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1107_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1107.txt...  Thu Jul 14 17:43:14 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1108_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1108_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1108_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1108.txt...  Thu Jul 14 17:43:51 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1109_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1109_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1109_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1109.txt...  Thu Jul 14 17:44:26 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1110_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1110_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1110_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1110.txt...  Thu Jul 14 17:45:01 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1111_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1111_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1111_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1111.txt...  Thu Jul 14 17:45:33 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1112_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1112_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1112_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1112.txt...  Thu Jul 14 17:46:05 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1113_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1113_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1113_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1113.txt...  Thu Jul 14 17:46:39 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1114_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1114_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1114_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1114.txt...  Thu Jul 14 17:47:10 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1115_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1115_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1115_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1115.txt...  Thu Jul 14 17:47:45 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1116_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1116_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1116_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1116.txt...  Thu Jul 14 17:48:19 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1201_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1201_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1201_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1201.txt...  Thu Jul 14 17:48:54 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1202_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1202_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1202_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1202.txt...  Thu Jul 14 17:49:19 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1203_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1203_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1203_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1203.txt...  Thu Jul 14 17:49:44 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1204_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1204_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1204_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1204.txt...  Thu Jul 14 17:50:09 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1205_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1205_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1205_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1205.txt...  Thu Jul 14 17:50:36 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1206_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1206_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1206_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1206.txt...  Thu Jul 14 17:51:03 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1207_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1207_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1207_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1207.txt...  Thu Jul 14 17:51:30 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1208_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1208_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1208_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1208.txt...  Thu Jul 14 17:52:02 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1209_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1209_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1209_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1209.txt...  Thu Jul 14 17:52:31 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1210_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1210_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1210_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1210.txt...  Thu Jul 14 17:53:00 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1211_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1211_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1211_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1211.txt...  Thu Jul 14 17:53:30 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1212_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1212_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1212_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1212.txt...  Thu Jul 14 17:54:00 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1213_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1213_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1213_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1213.txt...  Thu Jul 14 17:54:33 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1214_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1214_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1214_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1214.txt...  Thu Jul 14 17:55:05 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1215_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1215_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1215_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1215.txt...  Thu Jul 14 17:55:39 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_1216_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_1216_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_1216_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_1216.txt...  Thu Jul 14 17:56:13 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2101_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2101_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2101_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2101.txt...  Thu Jul 14 17:56:48 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2102_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2102_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2102_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2102.txt...  Thu Jul 14 17:57:14 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2103_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2103_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2103_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2103.txt...  Thu Jul 14 17:57:40 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2104_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2104_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2104_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2104.txt...  Thu Jul 14 17:58:06 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2105_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2105_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2105_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2105.txt...  Thu Jul 14 17:58:34 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2106_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2106_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2106_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2106.txt...  Thu Jul 14 17:59:01 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2107_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2107_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2107_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2107.txt...  Thu Jul 14 17:59:29 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2108_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2108_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2108_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2108.txt...  Thu Jul 14 17:59:59 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2109_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2109_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2109_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2109.txt...  Thu Jul 14 18:00:27 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2110_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2110_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2110_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2110.txt...  Thu Jul 14 18:00:57 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2111_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2111_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2111_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2111.txt...  Thu Jul 14 18:01:27 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2112_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2112_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2112_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2112.txt...  Thu Jul 14 18:01:58 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2113_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2113_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2113_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2113.txt...  Thu Jul 14 18:02:30 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2114_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2114_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2114_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2114.txt...  Thu Jul 14 18:03:02 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2115_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2115_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2115_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2115.txt...  Thu Jul 14 18:03:35 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2116_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2116_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2116_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2116.txt...  Thu Jul 14 18:04:10 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2201_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2201_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2201_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2201.txt...  Thu Jul 14 18:04:46 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2202_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2202_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2202_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2202.txt...  Thu Jul 14 18:05:12 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2203_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2203_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2203_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2203.txt...  Thu Jul 14 18:05:37 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2204_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2204_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2204_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2204.txt...  Thu Jul 14 18:06:03 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2205_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2205_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2205_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2205.txt...  Thu Jul 14 18:06:30 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2206_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2206_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2206_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2206.txt...  Thu Jul 14 18:06:57 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2207_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2207_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2207_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2207.txt...  Thu Jul 14 18:07:24 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2208_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2208_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2208_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2208.txt...  Thu Jul 14 18:07:53 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2209_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2209_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2209_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2209.txt...  Thu Jul 14 18:08:22 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2210_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2210_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2210_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2210.txt...  Thu Jul 14 18:08:51 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2211_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2211_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2211_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2211.txt...  Thu Jul 14 18:09:21 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2212_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2212_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2212_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2212.txt...  Thu Jul 14 18:09:51 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2213_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2213_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2213_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2213.txt...  Thu Jul 14 18:10:22 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2214_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2214_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2214_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2214.txt...  Thu Jul 14 18:10:54 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2215_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2215_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2215_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2215.txt...  Thu Jul 14 18:11:27 PDT 2016
+@@@ ../data/qseq/SxaQSEQsXap110L1/s_1_2_2216_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_1_2216_qseq.txt.gz ../data/qseq/SxaQSEQsXap110L1/s_1_3_2216_qseq.txt.gz -> ../data/fastq/SxaQSEQsXap110L1/s_1_2216.txt...  Thu Jul 14 18:12:01 PDT 2016
+@@@ Done.  Thu Jul 14 18:12:36 PDT 2016
+Merging all qseq files into one large file
+Counting the number of reads in the lane
+Number of unfiltered reads in the lane: 170548737 
+Filtering the reads to take only PF = 1
+Number of filtered reads in the lane: 158817428 
+Percentage of useable reads: 93 %
+QSUBing Sample N701 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N702 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N703 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N704 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N705 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N706 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N707 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N710 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N711 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N712 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N714 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N715 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N716 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N718 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N719 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N720 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N721 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N722 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N723 for de-muliplexing and converting to FASTQ...
+QSUBing Sample N724 for de-muliplexing and converting to FASTQ...

@@ -1,0 +1,22 @@
+
+Starting Filter_BAM_Human_Mouse.sh...Thu Jun 23 12:07:36 PDT 2016
+
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703
+
+End of Filter_BAM_Human_Mouse.sh... Thu Jun 23 12:23:05 PDT 2016
+
+Starting Filter_BAM_Human_Mouse.sh...Thu Jun 23 14:45:51 PDT 2016
+
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703
+
+End of Filter_BAM_Human_Mouse.sh... Thu Jun 23 15:09:16 PDT 2016

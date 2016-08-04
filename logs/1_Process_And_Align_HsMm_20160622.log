@@ -1,0 +1,310 @@
+
+Starting 1_Process_And_Align_HsMm.sh...Wed Jun 22 17:00:51 PDT 2016
+
+
+#######################################################################
+Sequencing Lane:
+SxaQSEQsXap108L1
+Total files: 20
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R2.fastq.gz
+Sample ID:
+N701
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N701
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N701/unaligned_data.bam
+Your job 320169 ("DA_N701") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R2.fastq.gz
+Sample ID:
+N702
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N702
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N702/unaligned_data.bam
+Your job 320171 ("DA_N702") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R2.fastq.gz
+Sample ID:
+N703
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N703
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N703/unaligned_data.bam
+Your job 320173 ("DA_N703") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N704.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N704.R2.fastq.gz
+Sample ID:
+N704
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N704
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N704.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N704.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N704/unaligned_data.bam
+Your job 320175 ("DA_N704") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N705.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N705.R2.fastq.gz
+Sample ID:
+N705
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N705
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N705.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N705.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N705/unaligned_data.bam
+Your job 320177 ("DA_N705") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N706.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N706.R2.fastq.gz
+Sample ID:
+N706
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N706
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N706.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N706.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N706/unaligned_data.bam
+Your job 320179 ("DA_N706") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N707.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N707.R2.fastq.gz
+Sample ID:
+N707
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N707
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N707.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N707.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N707/unaligned_data.bam
+Your job 320180 ("DA_N707") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N710.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N710.R2.fastq.gz
+Sample ID:
+N710
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N710
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N710.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N710.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N710/unaligned_data.bam
+Your job 320183 ("DA_N710") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N711.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N711.R2.fastq.gz
+Sample ID:
+N711
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N711
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N711.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N711.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N711/unaligned_data.bam
+Your job 320185 ("DA_N711") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N712.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N712.R2.fastq.gz
+Sample ID:
+N712
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N712
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N712.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N712.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N712/unaligned_data.bam
+Your job 320186 ("DA_N712") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N714.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N714.R2.fastq.gz
+Sample ID:
+N714
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N714
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N714.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N714.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N714/unaligned_data.bam
+Your job 320189 ("DA_N714") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N715.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N715.R2.fastq.gz
+Sample ID:
+N715
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N715
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N715.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N715.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N715/unaligned_data.bam
+Your job 320191 ("DA_N715") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N716.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N716.R2.fastq.gz
+Sample ID:
+N716
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N716
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N716.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N716.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N716/unaligned_data.bam
+Your job 320193 ("DA_N716") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N718.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N718.R2.fastq.gz
+Sample ID:
+N718
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N718
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N718.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N718.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N718/unaligned_data.bam
+Your job 320194 ("DA_N718") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N719.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N719.R2.fastq.gz
+Sample ID:
+N719
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N719
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N719.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N719.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N719/unaligned_data.bam
+Your job 320196 ("DA_N719") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N720.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N720.R2.fastq.gz
+Sample ID:
+N720
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N720
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N720.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N720.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N720/unaligned_data.bam
+Your job 320198 ("DA_N720") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N721.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N721.R2.fastq.gz
+Sample ID:
+N721
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N721
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N721.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N721.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N721/unaligned_data.bam
+Your job 320200 ("DA_N721") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N722.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N722.R2.fastq.gz
+Sample ID:
+N722
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N722
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N722.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N722.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N722/unaligned_data.bam
+Your job 320202 ("DA_N722") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N723.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N723.R2.fastq.gz
+Sample ID:
+N723
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N723
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N723.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N723.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N723/unaligned_data.bam
+Your job 320205 ("DA_N723") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N724.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N724.R2.fastq.gz
+Sample ID:
+N724
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N724
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N724.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N724.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N724/unaligned_data.bam
+Your job 320206 ("DA_N724") has been submitted
+
+End of 1_Process_And_Align_HsMm.sh... Wed Jun 22 18:17:02 PDT 2016

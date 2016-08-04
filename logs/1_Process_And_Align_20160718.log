@@ -1,0 +1,105 @@
+
+Starting 1_Process_And_Align.sh...Mon Jul 18 16:52:35 PDT 2016
+
+
+#######################################################################
+Sequencing Lane:
+SxaQSEQsXap108L1
+Total files: 3
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R2.fastq.gz
+Sample ID:
+N701
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N701.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/unaligned_data.bam
+Your job 342064 ("DA_N701") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R2.fastq.gz
+Sample ID:
+N702
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N702.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702/unaligned_data.bam
+Your job 342067 ("DA_N702") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R2.fastq.gz
+Sample ID:
+N703
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap108L1/N703.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/unaligned_data.bam
+Your job 342068 ("DA_N703") has been submitted
+
+#######################################################################
+Sequencing Lane:
+SxaQSEQsXap110L1
+Total files: 3
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N701.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N701.R2.fastq.gz
+Sample ID:
+N701
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap110L1/N701
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N701.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N701.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap110L1/N701/unaligned_data.bam
+Your job 342070 ("DA_N701") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N702.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N702.R2.fastq.gz
+Sample ID:
+N702
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap110L1/N702
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N702.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N702.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap110L1/N702/unaligned_data.bam
+Your job 342071 ("DA_N702") has been submitted
+
+fastq Read 1 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N703.R1.fastq.gz
+fastq Read 2 path:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N703.R2.fastq.gz
+Sample ID:
+N703
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap110L1/N703
+Converting SAM to BAM for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N703.R1.fastq.gz
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/fastq/SxaQSEQsXap110L1/N703.R2.fastq.gz
+Submitting Drop-seq_alignment.sh script for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap110L1/N703/unaligned_data.bam
+Your job 342072 ("DA_N703") has been submitted
+
+End of 1_Process_And_Align.sh... Mon Jul 18 19:11:07 PDT 2016

@@ -1,0 +1,796 @@
+[Mon Jul 11 14:41:30 PDT 2016] picard.sam.SortSam INPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/star_gene_exon_tagged.bam OUTPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/sorted_reads.bam SORT_ORDER=coordinate TMP_DIR=[../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/tmp]    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Mon Jul 11 14:41:30 PDT 2016] Executing as dpolioud@dg-compute-0-2.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-07-11 14:42:45	SortSam	Read    10,000,000 records.  Elapsed time: 00:01:14s.  Time for last 10,000,000:   74s.  Last read position: 15:84,942,750
+INFO	2016-07-11 14:44:08	SortSam	Read    20,000,000 records.  Elapsed time: 00:02:37s.  Time for last 10,000,000:   83s.  Last read position: 3:195,036,994
+INFO	2016-07-11 14:45:29	SortSam	Read    30,000,000 records.  Elapsed time: 00:03:59s.  Time for last 10,000,000:   81s.  Last read position: MT:2,212
+INFO	2016-07-11 14:46:35	SortSam	Read    40,000,000 records.  Elapsed time: 00:05:04s.  Time for last 10,000,000:   65s.  Last read position: */*
+INFO	2016-07-11 14:47:24	SortSam	Read    50,000,000 records.  Elapsed time: 00:05:53s.  Time for last 10,000,000:   48s.  Last read position: */*
+INFO	2016-07-11 14:47:35	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2016-07-11 14:49:15	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:07:45s.  Time for last 10,000,000:   98s.  Last read position: 15:84,942,750
+INFO	2016-07-11 14:50:49	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 00:09:19s.  Time for last 10,000,000:   94s.  Last read position: 3:195,036,994
+INFO	2016-07-11 14:52:28	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 00:10:57s.  Time for last 10,000,000:   98s.  Last read position: MT:2,212
+INFO	2016-07-11 14:54:05	SortSam	Wrote    40,000,000 records from a sorting collection.  Elapsed time: 00:12:34s.  Time for last 10,000,000:   96s.  Last read position: */*
+INFO	2016-07-11 14:55:40	SortSam	Wrote    50,000,000 records from a sorting collection.  Elapsed time: 00:14:10s.  Time for last 10,000,000:   95s.  Last read position: */*
+[Mon Jul 11 14:56:04 PDT 2016] picard.sam.SortSam done. Elapsed time: 14.56 minutes.
+Runtime.totalMemory()=2938634240
+[Mon Jul 11 14:56:04 PDT 2016] picard.sam.BuildBamIndex INPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/sorted_reads.bam    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Mon Jul 11 14:56:04 PDT 2016] Executing as dpolioud@dg-compute-0-2.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-07-11 14:57:52	BuildBamIndex	Successfully wrote bam index file /geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/code/../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/sorted_reads.bai
+[Mon Jul 11 14:57:52 PDT 2016] picard.sam.BuildBamIndex done. Elapsed time: 1.79 minutes.
+Runtime.totalMemory()=1547698176
+[Mon Jul 11 14:57:52 PDT 2016] picard.sam.ReorderSam INPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/sorted_reads.bam OUTPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/reordered_reads.bam REFERENCE=/geschwindlabshares/RNAseq_singlecellfetal/source/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC.fasta TMP_DIR=[../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/tmp]    ALLOW_INCOMPLETE_DICT_CONCORDANCE=false ALLOW_CONTIG_LENGTH_DISCORDANCE=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Mon Jul 11 14:57:52 PDT 2016] Executing as dpolioud@dg-compute-0-2.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-07-11 14:57:52	ReorderSam	SAM/BAM file
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1249250621
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n10135534747
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n11135006516
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n12133851895
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n13115169878
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n14107349540
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n15102531392
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1690354753
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1781195210
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1878077248
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1959128983
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n2243199373
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n2063025520
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n2148129895
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n2251304566
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n3198022430
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n4191154276
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n5180915260
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n6171115067
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n7159138663
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n8146364022
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n9141213431
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nMT16569
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nX155270560
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nY59373566
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000192.1547496
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000225.1211173
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000194.1191469
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000193.1189789
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000200.1187035
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000222.1186861
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000212.1186858
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000195.1182896
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000223.1180455
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000224.1179693
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000219.1179198
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000205.1174588
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000215.1172545
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000216.1172294
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000217.1172149
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000199.1169874
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000211.1166566
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000213.1164239
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000220.1161802
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000218.1161147
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000209.1159169
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000221.1155397
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000214.1137718
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000228.1129120
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000227.1128374
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000191.1106433
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000208.192689
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000198.190085
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000204.181310
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000233.145941
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000237.145867
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000230.143691
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000242.143523
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000243.143341
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000241.142152
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000236.141934
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000240.141933
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000206.141001
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000232.140652
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000234.140531
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000202.140103
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000238.139939
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000244.139929
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000248.139786
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000196.138914
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000249.138502
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000246.138154
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000203.137498
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000197.137175
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000245.136651
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000247.136422
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000201.136148
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000235.134474
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000239.133824
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000210.127682
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000231.127386
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000229.119913
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000226.115008
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000207.14262
+INFO	2016-07-11 14:57:52	ReorderSam	Reference
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1249250621
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n10135534747
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n11135006516
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n12133851895
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n13115169878
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n14107349540
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n15102531392
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1690354753
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1781195210
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1878077248
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n1959128983
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n2243199373
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n2063025520
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n2148129895
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n2251304566
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n3198022430
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n4191154276
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n5180915260
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n6171115067
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n7159138663
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n8146364022
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%n9141213431
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nMT16569
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nX155270560
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nY59373566
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000192.1547496
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000225.1211173
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000194.1191469
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000193.1189789
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000200.1187035
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000222.1186861
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000212.1186858
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000195.1182896
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000223.1180455
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000224.1179693
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000219.1179198
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000205.1174588
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000215.1172545
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000216.1172294
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000217.1172149
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000199.1169874
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000211.1166566
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000213.1164239
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000220.1161802
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000218.1161147
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000209.1159169
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000221.1155397
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000214.1137718
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000228.1129120
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000227.1128374
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000191.1106433
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000208.192689
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000198.190085
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000204.181310
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000233.145941
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000237.145867
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000230.143691
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000242.143523
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000243.143341
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000241.142152
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000236.141934
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000240.141933
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000206.141001
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000232.140652
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000234.140531
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000202.140103
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000238.139939
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000244.139929
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000248.139786
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000196.138914
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000249.138502
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000246.138154
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000203.137498
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000197.137175
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000245.136651
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000247.136422
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000201.136148
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000235.134474
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000239.133824
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000210.127682
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000231.127386
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000229.119913
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000226.115008
+INFO	2016-07-11 14:57:52	ReorderSam	  SN=%s LN=%d%nGL000207.14262
+INFO	2016-07-11 14:57:52	ReorderSam	Reordering SAM/BAM file:
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 1 [index=0] to => ref contig 1 [index=0]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 10 [index=1] to => ref contig 10 [index=1]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 11 [index=2] to => ref contig 11 [index=2]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 12 [index=3] to => ref contig 12 [index=3]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 13 [index=4] to => ref contig 13 [index=4]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 14 [index=5] to => ref contig 14 [index=5]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 15 [index=6] to => ref contig 15 [index=6]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 16 [index=7] to => ref contig 16 [index=7]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 17 [index=8] to => ref contig 17 [index=8]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 18 [index=9] to => ref contig 18 [index=9]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 19 [index=10] to => ref contig 19 [index=10]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 2 [index=11] to => ref contig 2 [index=11]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 20 [index=12] to => ref contig 20 [index=12]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 21 [index=13] to => ref contig 21 [index=13]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 22 [index=14] to => ref contig 22 [index=14]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 3 [index=15] to => ref contig 3 [index=15]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 4 [index=16] to => ref contig 4 [index=16]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 5 [index=17] to => ref contig 5 [index=17]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 6 [index=18] to => ref contig 6 [index=18]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 7 [index=19] to => ref contig 7 [index=19]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 8 [index=20] to => ref contig 8 [index=20]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig 9 [index=21] to => ref contig 9 [index=21]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig MT [index=22] to => ref contig MT [index=22]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig X [index=23] to => ref contig X [index=23]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig Y [index=24] to => ref contig Y [index=24]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000192.1 [index=25] to => ref contig GL000192.1 [index=25]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000225.1 [index=26] to => ref contig GL000225.1 [index=26]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000194.1 [index=27] to => ref contig GL000194.1 [index=27]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000193.1 [index=28] to => ref contig GL000193.1 [index=28]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000200.1 [index=29] to => ref contig GL000200.1 [index=29]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000222.1 [index=30] to => ref contig GL000222.1 [index=30]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000212.1 [index=31] to => ref contig GL000212.1 [index=31]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000195.1 [index=32] to => ref contig GL000195.1 [index=32]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000223.1 [index=33] to => ref contig GL000223.1 [index=33]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000224.1 [index=34] to => ref contig GL000224.1 [index=34]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000219.1 [index=35] to => ref contig GL000219.1 [index=35]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000205.1 [index=36] to => ref contig GL000205.1 [index=36]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000215.1 [index=37] to => ref contig GL000215.1 [index=37]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000216.1 [index=38] to => ref contig GL000216.1 [index=38]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000217.1 [index=39] to => ref contig GL000217.1 [index=39]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000199.1 [index=40] to => ref contig GL000199.1 [index=40]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000211.1 [index=41] to => ref contig GL000211.1 [index=41]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000213.1 [index=42] to => ref contig GL000213.1 [index=42]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000220.1 [index=43] to => ref contig GL000220.1 [index=43]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000218.1 [index=44] to => ref contig GL000218.1 [index=44]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000209.1 [index=45] to => ref contig GL000209.1 [index=45]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000221.1 [index=46] to => ref contig GL000221.1 [index=46]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000214.1 [index=47] to => ref contig GL000214.1 [index=47]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000228.1 [index=48] to => ref contig GL000228.1 [index=48]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000227.1 [index=49] to => ref contig GL000227.1 [index=49]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000191.1 [index=50] to => ref contig GL000191.1 [index=50]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000208.1 [index=51] to => ref contig GL000208.1 [index=51]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000198.1 [index=52] to => ref contig GL000198.1 [index=52]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000204.1 [index=53] to => ref contig GL000204.1 [index=53]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000233.1 [index=54] to => ref contig GL000233.1 [index=54]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000237.1 [index=55] to => ref contig GL000237.1 [index=55]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000230.1 [index=56] to => ref contig GL000230.1 [index=56]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000242.1 [index=57] to => ref contig GL000242.1 [index=57]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000243.1 [index=58] to => ref contig GL000243.1 [index=58]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000241.1 [index=59] to => ref contig GL000241.1 [index=59]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000236.1 [index=60] to => ref contig GL000236.1 [index=60]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000240.1 [index=61] to => ref contig GL000240.1 [index=61]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000206.1 [index=62] to => ref contig GL000206.1 [index=62]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000232.1 [index=63] to => ref contig GL000232.1 [index=63]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000234.1 [index=64] to => ref contig GL000234.1 [index=64]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000202.1 [index=65] to => ref contig GL000202.1 [index=65]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000238.1 [index=66] to => ref contig GL000238.1 [index=66]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000244.1 [index=67] to => ref contig GL000244.1 [index=67]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000248.1 [index=68] to => ref contig GL000248.1 [index=68]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000196.1 [index=69] to => ref contig GL000196.1 [index=69]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000249.1 [index=70] to => ref contig GL000249.1 [index=70]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000246.1 [index=71] to => ref contig GL000246.1 [index=71]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000203.1 [index=72] to => ref contig GL000203.1 [index=72]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000197.1 [index=73] to => ref contig GL000197.1 [index=73]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000245.1 [index=74] to => ref contig GL000245.1 [index=74]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000247.1 [index=75] to => ref contig GL000247.1 [index=75]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000201.1 [index=76] to => ref contig GL000201.1 [index=76]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000235.1 [index=77] to => ref contig GL000235.1 [index=77]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000239.1 [index=78] to => ref contig GL000239.1 [index=78]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000210.1 [index=79] to => ref contig GL000210.1 [index=79]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000231.1 [index=80] to => ref contig GL000231.1 [index=80]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000229.1 [index=81] to => ref contig GL000229.1 [index=81]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000226.1 [index=82] to => ref contig GL000226.1 [index=82]
+
+INFO	2016-07-11 14:57:52	ReorderSam	  Reordering read contig GL000207.1 [index=83] to => ref contig GL000207.1 [index=83]
+
+INFO	2016-07-11 14:57:52	ReorderSam	Writing reads...
+INFO	2016-07-11 14:57:52	ReorderSam	  Processing 1
+INFO	2016-07-11 14:58:22	ReorderSam	Wrote 2735534 reads
+INFO	2016-07-11 14:58:22	ReorderSam	  Processing 10
+INFO	2016-07-11 14:58:36	ReorderSam	Wrote 1139098 reads
+INFO	2016-07-11 14:58:36	ReorderSam	  Processing 11
+INFO	2016-07-11 14:58:58	ReorderSam	Wrote 2109216 reads
+INFO	2016-07-11 14:58:58	ReorderSam	  Processing 12
+INFO	2016-07-11 14:59:14	ReorderSam	Wrote 1492072 reads
+INFO	2016-07-11 14:59:14	ReorderSam	  Processing 13
+INFO	2016-07-11 14:59:22	ReorderSam	Wrote 673258 reads
+INFO	2016-07-11 14:59:22	ReorderSam	  Processing 14
+INFO	2016-07-11 14:59:32	ReorderSam	Wrote 962409 reads
+INFO	2016-07-11 14:59:32	ReorderSam	  Processing 15
+INFO	2016-07-11 14:59:43	ReorderSam	Wrote 998046 reads
+INFO	2016-07-11 14:59:43	ReorderSam	  Processing 16
+INFO	2016-07-11 14:59:53	ReorderSam	Wrote 939118 reads
+INFO	2016-07-11 14:59:53	ReorderSam	  Processing 17
+INFO	2016-07-11 15:00:08	ReorderSam	Wrote 1524195 reads
+INFO	2016-07-11 15:00:08	ReorderSam	  Processing 18
+INFO	2016-07-11 15:00:14	ReorderSam	Wrote 617771 reads
+INFO	2016-07-11 15:00:14	ReorderSam	  Processing 19
+INFO	2016-07-11 15:00:23	ReorderSam	Wrote 837849 reads
+INFO	2016-07-11 15:00:23	ReorderSam	  Processing 2
+INFO	2016-07-11 15:00:52	ReorderSam	Wrote 2725298 reads
+INFO	2016-07-11 15:00:52	ReorderSam	  Processing 20
+INFO	2016-07-11 15:00:58	ReorderSam	Wrote 584163 reads
+INFO	2016-07-11 15:00:58	ReorderSam	  Processing 21
+INFO	2016-07-11 15:01:03	ReorderSam	Wrote 345993 reads
+INFO	2016-07-11 15:01:03	ReorderSam	  Processing 22
+INFO	2016-07-11 15:01:09	ReorderSam	Wrote 587631 reads
+INFO	2016-07-11 15:01:09	ReorderSam	  Processing 3
+INFO	2016-07-11 15:01:28	ReorderSam	Wrote 1821079 reads
+INFO	2016-07-11 15:01:28	ReorderSam	  Processing 4
+INFO	2016-07-11 15:01:42	ReorderSam	Wrote 1334677 reads
+INFO	2016-07-11 15:01:42	ReorderSam	  Processing 5
+INFO	2016-07-11 15:02:02	ReorderSam	Wrote 1773792 reads
+INFO	2016-07-11 15:02:02	ReorderSam	  Processing 6
+INFO	2016-07-11 15:02:19	ReorderSam	Wrote 1693267 reads
+INFO	2016-07-11 15:02:19	ReorderSam	  Processing 7
+INFO	2016-07-11 15:02:37	ReorderSam	Wrote 1624311 reads
+INFO	2016-07-11 15:02:37	ReorderSam	  Processing 8
+INFO	2016-07-11 15:02:50	ReorderSam	Wrote 1343406 reads
+INFO	2016-07-11 15:02:50	ReorderSam	  Processing 9
+INFO	2016-07-11 15:03:04	ReorderSam	Wrote 1155098 reads
+INFO	2016-07-11 15:03:04	ReorderSam	  Processing MT
+INFO	2016-07-11 15:03:28	ReorderSam	Wrote 2320372 reads
+INFO	2016-07-11 15:03:28	ReorderSam	  Processing X
+INFO	2016-07-11 15:03:40	ReorderSam	Wrote 1055164 reads
+INFO	2016-07-11 15:03:40	ReorderSam	  Processing Y
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 62437 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000192.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 5154 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000225.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 87 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000194.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 125 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000193.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 171 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000200.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 32 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000222.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 2026 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000212.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 363 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000195.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 3680 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000223.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 2284 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000224.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 220 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000219.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 2629 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000205.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 978 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000215.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 38 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000216.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 296 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000217.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 247 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000199.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 70 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000211.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 765 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000213.1
+INFO	2016-07-11 15:03:41	ReorderSam	Wrote 142 reads
+INFO	2016-07-11 15:03:41	ReorderSam	  Processing GL000220.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 2487590 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000218.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 2226 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000209.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 27 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000221.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 355 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000214.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 86 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000228.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 16 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000227.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 64 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000191.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 835 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000208.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 50 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000198.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 39 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000204.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 353 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000233.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 61 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000237.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 35 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000230.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 38 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000242.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 21 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000243.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 21 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000241.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 509 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000236.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 24 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000240.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 24 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000206.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 2 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000232.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 15 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000234.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 14 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000202.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 45 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000238.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 8 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000244.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 6 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000248.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 157 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000196.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 141 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000249.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 216 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000246.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 14 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000203.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 4 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000197.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 57 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000245.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 2 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000247.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 46 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000201.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 21 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000235.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 4 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000239.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 7 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000210.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 62 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000231.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 34 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000229.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 21227 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000226.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 10 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing GL000207.1
+INFO	2016-07-11 15:04:07	ReorderSam	Wrote 0 reads
+INFO	2016-07-11 15:04:07	ReorderSam	  Processing unmapped
+INFO	2016-07-11 15:07:02	ReorderSam	Wrote 17228435 reads
+[Mon Jul 11 15:07:02 PDT 2016] picard.sam.ReorderSam done. Elapsed time: 9.17 minutes.
+Runtime.totalMemory()=1491075072
+[Mon Jul 11 15:07:02 PDT 2016] picard.analysis.CollectAlignmentSummaryMetrics ADAPTER_SEQUENCE=[] REFERENCE_SEQUENCE=/geschwindlabshares/RNAseq_singlecellfetal/source/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC.fasta INPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/reordered_reads.bam OUTPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/alignment_stats.txt ASSUME_SORTED=false    MAX_INSERT_SIZE=100000 METRIC_ACCUMULATION_LEVEL=[ALL_READS] IS_BISULFITE_SEQUENCED=false STOP_AFTER=0 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Mon Jul 11 15:07:02 PDT 2016] Executing as dpolioud@dg-compute-0-2.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-07-11 15:07:08	SinglePassSamProgram	Processed     1,000,000 records.  Elapsed time: 00:00:05s.  Time for last 1,000,000:    3s.  Last read position: 1:61,924,377
+INFO	2016-07-11 15:07:11	SinglePassSamProgram	Processed     2,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    3s.  Last read position: 1:176,856,565
+INFO	2016-07-11 15:07:15	SinglePassSamProgram	Processed     3,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    4s.  Last read position: 10:27,486,084
+INFO	2016-07-11 15:07:19	SinglePassSamProgram	Processed     4,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    3s.  Last read position: 11:10,530,277
+INFO	2016-07-11 15:07:22	SinglePassSamProgram	Processed     5,000,000 records.  Elapsed time: 00:00:19s.  Time for last 1,000,000:    3s.  Last read position: 11:65,267,987
+INFO	2016-07-11 15:07:26	SinglePassSamProgram	Processed     6,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:    3s.  Last read position: 12:366,810
+INFO	2016-07-11 15:07:29	SinglePassSamProgram	Processed     7,000,000 records.  Elapsed time: 00:00:26s.  Time for last 1,000,000:    3s.  Last read position: 12:92,539,569
+INFO	2016-07-11 15:07:33	SinglePassSamProgram	Processed     8,000,000 records.  Elapsed time: 00:00:30s.  Time for last 1,000,000:    3s.  Last read position: 13:98,855,315
+INFO	2016-07-11 15:07:36	SinglePassSamProgram	Processed     9,000,000 records.  Elapsed time: 00:00:33s.  Time for last 1,000,000:    3s.  Last read position: 14:100,744,552
+INFO	2016-07-11 15:07:40	SinglePassSamProgram	Processed    10,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    3s.  Last read position: 15:84,942,750
+INFO	2016-07-11 15:07:43	SinglePassSamProgram	Processed    11,000,000 records.  Elapsed time: 00:00:40s.  Time for last 1,000,000:    3s.  Last read position: 16:87,437,979
+INFO	2016-07-11 15:07:47	SinglePassSamProgram	Processed    12,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:    3s.  Last read position: 17:37,360,432
+INFO	2016-07-11 15:07:50	SinglePassSamProgram	Processed    13,000,000 records.  Elapsed time: 00:00:47s.  Time for last 1,000,000:    3s.  Last read position: 18:48,564,036
+INFO	2016-07-11 15:07:54	SinglePassSamProgram	Processed    14,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:    3s.  Last read position: 19:58,068,016
+INFO	2016-07-11 15:07:58	SinglePassSamProgram	Processed    15,000,000 records.  Elapsed time: 00:00:55s.  Time for last 1,000,000:    4s.  Last read position: 2:85,133,152
+INFO	2016-07-11 15:08:01	SinglePassSamProgram	Processed    16,000,000 records.  Elapsed time: 00:00:58s.  Time for last 1,000,000:    3s.  Last read position: 2:180,604,036
+INFO	2016-07-11 15:08:04	SinglePassSamProgram	Processed    17,000,000 records.  Elapsed time: 00:01:02s.  Time for last 1,000,000:    3s.  Last read position: 20:32,198,942
+INFO	2016-07-11 15:08:08	SinglePassSamProgram	Processed    18,000,000 records.  Elapsed time: 00:01:05s.  Time for last 1,000,000:    3s.  Last read position: 22:29,723,847
+INFO	2016-07-11 15:08:12	SinglePassSamProgram	Processed    19,000,000 records.  Elapsed time: 00:01:09s.  Time for last 1,000,000:    3s.  Last read position: 3:77,526,592
+INFO	2016-07-11 15:08:15	SinglePassSamProgram	Processed    20,000,000 records.  Elapsed time: 00:01:12s.  Time for last 1,000,000:    3s.  Last read position: 3:195,036,994
+INFO	2016-07-11 15:08:19	SinglePassSamProgram	Processed    21,000,000 records.  Elapsed time: 00:01:16s.  Time for last 1,000,000:    3s.  Last read position: 4:125,591,729
+INFO	2016-07-11 15:08:23	SinglePassSamProgram	Processed    22,000,000 records.  Elapsed time: 00:01:20s.  Time for last 1,000,000:    3s.  Last read position: 5:71,501,413
+INFO	2016-07-11 15:08:26	SinglePassSamProgram	Processed    23,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    3s.  Last read position: 5:158,623,884
+INFO	2016-07-11 15:08:30	SinglePassSamProgram	Processed    24,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    3s.  Last read position: 6:64,401,867
+INFO	2016-07-11 15:08:34	SinglePassSamProgram	Processed    25,000,000 records.  Elapsed time: 00:01:31s.  Time for last 1,000,000:    3s.  Last read position: 7:11,078,459
+INFO	2016-07-11 15:08:37	SinglePassSamProgram	Processed    26,000,000 records.  Elapsed time: 00:01:34s.  Time for last 1,000,000:    3s.  Last read position: 7:105,222,935
+INFO	2016-07-11 15:08:41	SinglePassSamProgram	Processed    27,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:    3s.  Last read position: 8:54,899,561
+INFO	2016-07-11 15:08:44	SinglePassSamProgram	Processed    28,000,000 records.  Elapsed time: 00:01:41s.  Time for last 1,000,000:    3s.  Last read position: 9:10,515,600
+INFO	2016-07-11 15:08:47	SinglePassSamProgram	Processed    29,000,000 records.  Elapsed time: 00:01:45s.  Time for last 1,000,000:    3s.  Last read position: 9:139,997,824
+INFO	2016-07-11 15:08:51	SinglePassSamProgram	Processed    30,000,000 records.  Elapsed time: 00:01:48s.  Time for last 1,000,000:    3s.  Last read position: MT:2,212
+INFO	2016-07-11 15:08:54	SinglePassSamProgram	Processed    31,000,000 records.  Elapsed time: 00:01:51s.  Time for last 1,000,000:    3s.  Last read position: MT:4,207
+INFO	2016-07-11 15:08:58	SinglePassSamProgram	Processed    32,000,000 records.  Elapsed time: 00:01:55s.  Time for last 1,000,000:    3s.  Last read position: X:101,860,569
+INFO	2016-07-11 15:09:01	SinglePassSamProgram	Processed    33,000,000 records.  Elapsed time: 00:01:58s.  Time for last 1,000,000:    3s.  Last read position: GL000220.1:109,798
+INFO	2016-07-11 15:09:04	SinglePassSamProgram	Processed    34,000,000 records.  Elapsed time: 00:02:01s.  Time for last 1,000,000:    2s.  Last read position: GL000220.1:110,006
+INFO	2016-07-11 15:09:07	SinglePassSamProgram	Processed    35,000,000 records.  Elapsed time: 00:02:04s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:09	SinglePassSamProgram	Processed    36,000,000 records.  Elapsed time: 00:02:06s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:11	SinglePassSamProgram	Processed    37,000,000 records.  Elapsed time: 00:02:08s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:13	SinglePassSamProgram	Processed    38,000,000 records.  Elapsed time: 00:02:10s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:15	SinglePassSamProgram	Processed    39,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:17	SinglePassSamProgram	Processed    40,000,000 records.  Elapsed time: 00:02:15s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:20	SinglePassSamProgram	Processed    41,000,000 records.  Elapsed time: 00:02:17s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:22	SinglePassSamProgram	Processed    42,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:24	SinglePassSamProgram	Processed    43,000,000 records.  Elapsed time: 00:02:21s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:26	SinglePassSamProgram	Processed    44,000,000 records.  Elapsed time: 00:02:23s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:28	SinglePassSamProgram	Processed    45,000,000 records.  Elapsed time: 00:02:25s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:30	SinglePassSamProgram	Processed    46,000,000 records.  Elapsed time: 00:02:27s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:32	SinglePassSamProgram	Processed    47,000,000 records.  Elapsed time: 00:02:29s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:34	SinglePassSamProgram	Processed    48,000,000 records.  Elapsed time: 00:02:31s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:36	SinglePassSamProgram	Processed    49,000,000 records.  Elapsed time: 00:02:34s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:39	SinglePassSamProgram	Processed    50,000,000 records.  Elapsed time: 00:02:36s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:41	SinglePassSamProgram	Processed    51,000,000 records.  Elapsed time: 00:02:38s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:09:43	SinglePassSamProgram	Processed    52,000,000 records.  Elapsed time: 00:02:40s.  Time for last 1,000,000:    2s.  Last read position: */*
+[Mon Jul 11 15:09:43 PDT 2016] picard.analysis.CollectAlignmentSummaryMetrics done. Elapsed time: 2.68 minutes.
+Runtime.totalMemory()=1312817152
+[Mon Jul 11 15:09:44 PDT 2016] picard.analysis.CollectRnaSeqMetrics REF_FLAT=/geschwindlabshares/RNAseq_singlecellfetal/source/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC.refFlat STRAND_SPECIFICITY=NONE INPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/reordered_reads.bam OUTPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/rnaseq_stats.txt ASSUME_SORTED=false REFERENCE_SEQUENCE=/geschwindlabshares/RNAseq_singlecellfetal/source/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC.fasta    MINIMUM_LENGTH=500 RRNA_FRAGMENT_PERCENTAGE=0.8 METRIC_ACCUMULATION_LEVEL=[ALL_READS] STOP_AFTER=0 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Mon Jul 11 15:09:44 PDT 2016] Executing as dpolioud@dg-compute-0-2.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-07-11 15:09:45	CollectRnaSeqMetrics	Loaded 55551 genes.
+INFO	2016-07-11 15:10:03	SinglePassSamProgram	Processed     1,000,000 records.  Elapsed time: 00:00:17s.  Time for last 1,000,000:   15s.  Last read position: 1:61,924,377
+INFO	2016-07-11 15:10:16	SinglePassSamProgram	Processed     2,000,000 records.  Elapsed time: 00:00:31s.  Time for last 1,000,000:   13s.  Last read position: 1:176,856,565
+INFO	2016-07-11 15:10:30	SinglePassSamProgram	Processed     3,000,000 records.  Elapsed time: 00:00:44s.  Time for last 1,000,000:   13s.  Last read position: 10:27,486,084
+INFO	2016-07-11 15:10:45	SinglePassSamProgram	Processed     4,000,000 records.  Elapsed time: 00:00:59s.  Time for last 1,000,000:   14s.  Last read position: 11:10,530,277
+INFO	2016-07-11 15:10:53	SinglePassSamProgram	Processed     5,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    8s.  Last read position: 11:65,267,987
+INFO	2016-07-11 15:11:13	SinglePassSamProgram	Processed     6,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:   19s.  Last read position: 12:366,810
+INFO	2016-07-11 15:11:30	SinglePassSamProgram	Processed     7,000,000 records.  Elapsed time: 00:01:44s.  Time for last 1,000,000:   16s.  Last read position: 12:92,539,569
+INFO	2016-07-11 15:11:44	SinglePassSamProgram	Processed     8,000,000 records.  Elapsed time: 00:01:58s.  Time for last 1,000,000:   13s.  Last read position: 13:98,855,315
+INFO	2016-07-11 15:12:01	SinglePassSamProgram	Processed     9,000,000 records.  Elapsed time: 00:02:15s.  Time for last 1,000,000:   17s.  Last read position: 14:100,744,552
+INFO	2016-07-11 15:12:18	SinglePassSamProgram	Processed    10,000,000 records.  Elapsed time: 00:02:32s.  Time for last 1,000,000:   17s.  Last read position: 15:84,942,750
+INFO	2016-07-11 15:12:34	SinglePassSamProgram	Processed    11,000,000 records.  Elapsed time: 00:02:48s.  Time for last 1,000,000:   15s.  Last read position: 16:87,437,979
+INFO	2016-07-11 15:12:45	SinglePassSamProgram	Processed    12,000,000 records.  Elapsed time: 00:02:59s.  Time for last 1,000,000:   10s.  Last read position: 17:37,360,432
+INFO	2016-07-11 15:13:00	SinglePassSamProgram	Processed    13,000,000 records.  Elapsed time: 00:03:14s.  Time for last 1,000,000:   15s.  Last read position: 18:48,564,036
+INFO	2016-07-11 15:13:16	SinglePassSamProgram	Processed    14,000,000 records.  Elapsed time: 00:03:30s.  Time for last 1,000,000:   15s.  Last read position: 19:58,068,016
+INFO	2016-07-11 15:13:32	SinglePassSamProgram	Processed    15,000,000 records.  Elapsed time: 00:03:46s.  Time for last 1,000,000:   16s.  Last read position: 2:85,133,152
+INFO	2016-07-11 15:13:46	SinglePassSamProgram	Processed    16,000,000 records.  Elapsed time: 00:04:00s.  Time for last 1,000,000:   14s.  Last read position: 2:180,604,036
+INFO	2016-07-11 15:13:59	SinglePassSamProgram	Processed    17,000,000 records.  Elapsed time: 00:04:14s.  Time for last 1,000,000:   13s.  Last read position: 20:32,198,942
+INFO	2016-07-11 15:14:13	SinglePassSamProgram	Processed    18,000,000 records.  Elapsed time: 00:04:27s.  Time for last 1,000,000:   13s.  Last read position: 22:29,723,847
+INFO	2016-07-11 15:14:30	SinglePassSamProgram	Processed    19,000,000 records.  Elapsed time: 00:04:44s.  Time for last 1,000,000:   17s.  Last read position: 3:77,526,592
+INFO	2016-07-11 15:14:45	SinglePassSamProgram	Processed    20,000,000 records.  Elapsed time: 00:04:59s.  Time for last 1,000,000:   14s.  Last read position: 3:195,036,994
+INFO	2016-07-11 15:15:04	SinglePassSamProgram	Processed    21,000,000 records.  Elapsed time: 00:05:18s.  Time for last 1,000,000:   18s.  Last read position: 4:125,591,729
+INFO	2016-07-11 15:15:19	SinglePassSamProgram	Processed    22,000,000 records.  Elapsed time: 00:05:34s.  Time for last 1,000,000:   15s.  Last read position: 5:71,501,413
+INFO	2016-07-11 15:15:35	SinglePassSamProgram	Processed    23,000,000 records.  Elapsed time: 00:05:50s.  Time for last 1,000,000:   15s.  Last read position: 5:158,623,884
+INFO	2016-07-11 15:15:47	SinglePassSamProgram	Processed    24,000,000 records.  Elapsed time: 00:06:02s.  Time for last 1,000,000:   11s.  Last read position: 6:64,401,867
+INFO	2016-07-11 15:16:00	SinglePassSamProgram	Processed    25,000,000 records.  Elapsed time: 00:06:15s.  Time for last 1,000,000:   13s.  Last read position: 7:11,078,459
+INFO	2016-07-11 15:16:14	SinglePassSamProgram	Processed    26,000,000 records.  Elapsed time: 00:06:28s.  Time for last 1,000,000:   13s.  Last read position: 7:105,222,935
+INFO	2016-07-11 15:16:29	SinglePassSamProgram	Processed    27,000,000 records.  Elapsed time: 00:06:43s.  Time for last 1,000,000:   15s.  Last read position: 8:54,899,561
+INFO	2016-07-11 15:16:46	SinglePassSamProgram	Processed    28,000,000 records.  Elapsed time: 00:07:01s.  Time for last 1,000,000:   17s.  Last read position: 9:10,515,600
+INFO	2016-07-11 15:16:59	SinglePassSamProgram	Processed    29,000,000 records.  Elapsed time: 00:07:13s.  Time for last 1,000,000:   12s.  Last read position: 9:139,997,824
+INFO	2016-07-11 15:17:03	SinglePassSamProgram	Processed    30,000,000 records.  Elapsed time: 00:07:18s.  Time for last 1,000,000:    4s.  Last read position: MT:2,212
+INFO	2016-07-11 15:17:07	SinglePassSamProgram	Processed    31,000,000 records.  Elapsed time: 00:07:21s.  Time for last 1,000,000:    3s.  Last read position: MT:4,207
+INFO	2016-07-11 15:17:16	SinglePassSamProgram	Processed    32,000,000 records.  Elapsed time: 00:07:30s.  Time for last 1,000,000:    8s.  Last read position: X:101,860,569
+INFO	2016-07-11 15:17:22	SinglePassSamProgram	Processed    33,000,000 records.  Elapsed time: 00:07:36s.  Time for last 1,000,000:    6s.  Last read position: GL000220.1:109,798
+INFO	2016-07-11 15:17:24	SinglePassSamProgram	Processed    34,000,000 records.  Elapsed time: 00:07:39s.  Time for last 1,000,000:    2s.  Last read position: GL000220.1:110,006
+INFO	2016-07-11 15:17:27	SinglePassSamProgram	Processed    35,000,000 records.  Elapsed time: 00:07:41s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:17:29	SinglePassSamProgram	Processed    36,000,000 records.  Elapsed time: 00:07:43s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:30	SinglePassSamProgram	Processed    37,000,000 records.  Elapsed time: 00:07:45s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:32	SinglePassSamProgram	Processed    38,000,000 records.  Elapsed time: 00:07:46s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:34	SinglePassSamProgram	Processed    39,000,000 records.  Elapsed time: 00:07:48s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:36	SinglePassSamProgram	Processed    40,000,000 records.  Elapsed time: 00:07:50s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:37	SinglePassSamProgram	Processed    41,000,000 records.  Elapsed time: 00:07:52s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:39	SinglePassSamProgram	Processed    42,000,000 records.  Elapsed time: 00:07:53s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:41	SinglePassSamProgram	Processed    43,000,000 records.  Elapsed time: 00:07:55s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:42	SinglePassSamProgram	Processed    44,000,000 records.  Elapsed time: 00:07:57s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:44	SinglePassSamProgram	Processed    45,000,000 records.  Elapsed time: 00:07:59s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:46	SinglePassSamProgram	Processed    46,000,000 records.  Elapsed time: 00:08:00s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:48	SinglePassSamProgram	Processed    47,000,000 records.  Elapsed time: 00:08:02s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:49	SinglePassSamProgram	Processed    48,000,000 records.  Elapsed time: 00:08:04s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:51	SinglePassSamProgram	Processed    49,000,000 records.  Elapsed time: 00:08:05s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:53	SinglePassSamProgram	Processed    50,000,000 records.  Elapsed time: 00:08:07s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:55	SinglePassSamProgram	Processed    51,000,000 records.  Elapsed time: 00:08:09s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:17:56	SinglePassSamProgram	Processed    52,000,000 records.  Elapsed time: 00:08:11s.  Time for last 1,000,000:    1s.  Last read position: */*
+[Mon Jul 11 15:17:58 PDT 2016] picard.analysis.CollectRnaSeqMetrics done. Elapsed time: 8.24 minutes.
+Runtime.totalMemory()=2021130240
+[Mon Jul 11 15:17:58 PDT 2016] picard.analysis.CollectGcBiasMetrics CHART_OUTPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/gcbias_chart.pdf SUMMARY_OUTPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/gcbias_summary.txt INPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/reordered_reads.bam OUTPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/gcbias_stats.txt ASSUME_SORTED=false REFERENCE_SEQUENCE=/geschwindlabshares/RNAseq_singlecellfetal/source/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC.fasta    WINDOW_SIZE=100 MINIMUM_GENOME_FRACTION=1.0E-5 IS_BISULFITE_SEQUENCED=false STOP_AFTER=0 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Mon Jul 11 15:17:58 PDT 2016] Executing as dpolioud@dg-compute-0-2.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-07-11 15:18:07	SinglePassSamProgram	Processed     1,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    3s.  Last read position: 1:61,924,377
+INFO	2016-07-11 15:18:10	SinglePassSamProgram	Processed     2,000,000 records.  Elapsed time: 00:00:11s.  Time for last 1,000,000:    2s.  Last read position: 1:176,856,565
+INFO	2016-07-11 15:18:15	SinglePassSamProgram	Processed     3,000,000 records.  Elapsed time: 00:00:17s.  Time for last 1,000,000:    5s.  Last read position: 10:27,486,084
+INFO	2016-07-11 15:18:21	SinglePassSamProgram	Processed     4,000,000 records.  Elapsed time: 00:00:22s.  Time for last 1,000,000:    5s.  Last read position: 11:10,530,277
+INFO	2016-07-11 15:18:23	SinglePassSamProgram	Processed     5,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:    2s.  Last read position: 11:65,267,987
+INFO	2016-07-11 15:18:28	SinglePassSamProgram	Processed     6,000,000 records.  Elapsed time: 00:00:29s.  Time for last 1,000,000:    4s.  Last read position: 12:366,810
+INFO	2016-07-11 15:18:31	SinglePassSamProgram	Processed     7,000,000 records.  Elapsed time: 00:00:32s.  Time for last 1,000,000:    2s.  Last read position: 12:92,539,569
+INFO	2016-07-11 15:18:35	SinglePassSamProgram	Processed     8,000,000 records.  Elapsed time: 00:00:37s.  Time for last 1,000,000:    4s.  Last read position: 13:98,855,315
+INFO	2016-07-11 15:18:40	SinglePassSamProgram	Processed     9,000,000 records.  Elapsed time: 00:00:41s.  Time for last 1,000,000:    4s.  Last read position: 14:100,744,552
+INFO	2016-07-11 15:18:44	SinglePassSamProgram	Processed    10,000,000 records.  Elapsed time: 00:00:45s.  Time for last 1,000,000:    4s.  Last read position: 15:84,942,750
+INFO	2016-07-11 15:18:48	SinglePassSamProgram	Processed    11,000,000 records.  Elapsed time: 00:00:49s.  Time for last 1,000,000:    4s.  Last read position: 16:87,437,979
+INFO	2016-07-11 15:18:52	SinglePassSamProgram	Processed    12,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:    3s.  Last read position: 17:37,360,432
+INFO	2016-07-11 15:18:56	SinglePassSamProgram	Processed    13,000,000 records.  Elapsed time: 00:00:57s.  Time for last 1,000,000:    3s.  Last read position: 18:48,564,036
+INFO	2016-07-11 15:18:59	SinglePassSamProgram	Processed    14,000,000 records.  Elapsed time: 00:01:01s.  Time for last 1,000,000:    3s.  Last read position: 19:58,068,016
+INFO	2016-07-11 15:19:06	SinglePassSamProgram	Processed    15,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    7s.  Last read position: 2:85,133,152
+INFO	2016-07-11 15:19:09	SinglePassSamProgram	Processed    16,000,000 records.  Elapsed time: 00:01:10s.  Time for last 1,000,000:    2s.  Last read position: 2:180,604,036
+INFO	2016-07-11 15:19:13	SinglePassSamProgram	Processed    17,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:    3s.  Last read position: 20:32,198,942
+INFO	2016-07-11 15:19:17	SinglePassSamProgram	Processed    18,000,000 records.  Elapsed time: 00:01:18s.  Time for last 1,000,000:    4s.  Last read position: 22:29,723,847
+INFO	2016-07-11 15:19:23	SinglePassSamProgram	Processed    19,000,000 records.  Elapsed time: 00:01:24s.  Time for last 1,000,000:    6s.  Last read position: 3:77,526,592
+INFO	2016-07-11 15:19:26	SinglePassSamProgram	Processed    20,000,000 records.  Elapsed time: 00:01:27s.  Time for last 1,000,000:    2s.  Last read position: 3:195,036,994
+INFO	2016-07-11 15:19:32	SinglePassSamProgram	Processed    21,000,000 records.  Elapsed time: 00:01:33s.  Time for last 1,000,000:    6s.  Last read position: 4:125,591,729
+INFO	2016-07-11 15:19:37	SinglePassSamProgram	Processed    22,000,000 records.  Elapsed time: 00:01:39s.  Time for last 1,000,000:    5s.  Last read position: 5:71,501,413
+INFO	2016-07-11 15:19:40	SinglePassSamProgram	Processed    23,000,000 records.  Elapsed time: 00:01:41s.  Time for last 1,000,000:    2s.  Last read position: 5:158,623,884
+INFO	2016-07-11 15:19:45	SinglePassSamProgram	Processed    24,000,000 records.  Elapsed time: 00:01:47s.  Time for last 1,000,000:    5s.  Last read position: 6:64,401,867
+INFO	2016-07-11 15:19:51	SinglePassSamProgram	Processed    25,000,000 records.  Elapsed time: 00:01:52s.  Time for last 1,000,000:    5s.  Last read position: 7:11,078,459
+INFO	2016-07-11 15:19:53	SinglePassSamProgram	Processed    26,000,000 records.  Elapsed time: 00:01:54s.  Time for last 1,000,000:    2s.  Last read position: 7:105,222,935
+INFO	2016-07-11 15:19:58	SinglePassSamProgram	Processed    27,000,000 records.  Elapsed time: 00:02:00s.  Time for last 1,000,000:    5s.  Last read position: 8:54,899,561
+INFO	2016-07-11 15:20:03	SinglePassSamProgram	Processed    28,000,000 records.  Elapsed time: 00:02:04s.  Time for last 1,000,000:    4s.  Last read position: 9:10,515,600
+INFO	2016-07-11 15:20:06	SinglePassSamProgram	Processed    29,000,000 records.  Elapsed time: 00:02:07s.  Time for last 1,000,000:    2s.  Last read position: 9:139,997,824
+INFO	2016-07-11 15:20:08	SinglePassSamProgram	Processed    30,000,000 records.  Elapsed time: 00:02:09s.  Time for last 1,000,000:    2s.  Last read position: MT:2,212
+INFO	2016-07-11 15:20:11	SinglePassSamProgram	Processed    31,000,000 records.  Elapsed time: 00:02:12s.  Time for last 1,000,000:    2s.  Last read position: MT:4,207
+INFO	2016-07-11 15:20:16	SinglePassSamProgram	Processed    32,000,000 records.  Elapsed time: 00:02:17s.  Time for last 1,000,000:    5s.  Last read position: X:101,860,569
+INFO	2016-07-11 15:20:19	SinglePassSamProgram	Processed    33,000,000 records.  Elapsed time: 00:02:20s.  Time for last 1,000,000:    3s.  Last read position: GL000220.1:109,798
+INFO	2016-07-11 15:20:21	SinglePassSamProgram	Processed    34,000,000 records.  Elapsed time: 00:02:23s.  Time for last 1,000,000:    2s.  Last read position: GL000220.1:110,006
+INFO	2016-07-11 15:20:24	SinglePassSamProgram	Processed    35,000,000 records.  Elapsed time: 00:02:25s.  Time for last 1,000,000:    2s.  Last read position: */*
+INFO	2016-07-11 15:20:25	SinglePassSamProgram	Processed    36,000,000 records.  Elapsed time: 00:02:27s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:27	SinglePassSamProgram	Processed    37,000,000 records.  Elapsed time: 00:02:28s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:29	SinglePassSamProgram	Processed    38,000,000 records.  Elapsed time: 00:02:30s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:30	SinglePassSamProgram	Processed    39,000,000 records.  Elapsed time: 00:02:32s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:32	SinglePassSamProgram	Processed    40,000,000 records.  Elapsed time: 00:02:33s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:34	SinglePassSamProgram	Processed    41,000,000 records.  Elapsed time: 00:02:35s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:35	SinglePassSamProgram	Processed    42,000,000 records.  Elapsed time: 00:02:37s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:37	SinglePassSamProgram	Processed    43,000,000 records.  Elapsed time: 00:02:38s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:39	SinglePassSamProgram	Processed    44,000,000 records.  Elapsed time: 00:02:40s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:40	SinglePassSamProgram	Processed    45,000,000 records.  Elapsed time: 00:02:42s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:42	SinglePassSamProgram	Processed    46,000,000 records.  Elapsed time: 00:02:43s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:44	SinglePassSamProgram	Processed    47,000,000 records.  Elapsed time: 00:02:45s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:46	SinglePassSamProgram	Processed    48,000,000 records.  Elapsed time: 00:02:47s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:47	SinglePassSamProgram	Processed    49,000,000 records.  Elapsed time: 00:02:49s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:49	SinglePassSamProgram	Processed    50,000,000 records.  Elapsed time: 00:02:50s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:51	SinglePassSamProgram	Processed    51,000,000 records.  Elapsed time: 00:02:52s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:52	SinglePassSamProgram	Processed    52,000,000 records.  Elapsed time: 00:02:54s.  Time for last 1,000,000:    1s.  Last read position: */*
+INFO	2016-07-11 15:20:53	RExecutor	Executing R script via command: Rscript /tmp/dpolioud/script3241872179380326750.R /geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/code/../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/gcbias_stats.txt /geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/code/../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/gcbias_chart.pdf reordered_reads.bam.null Total clusters: 52,217,462, Aligned reads: 34,989,027 100
+ERROR	2016-07-11 15:20:53	ProcessExecutor	Rscript execution error: No such file or directory
+[Mon Jul 11 15:20:53 PDT 2016] picard.analysis.CollectGcBiasMetrics done. Elapsed time: 2.91 minutes.
+Runtime.totalMemory()=1864368128
+[Mon Jul 11 15:20:53 PDT 2016] picard.sam.markduplicates.MarkDuplicates INPUT=[../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/reordered_reads.bam] OUTPUT=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/reordered_duplication_marked_reads.bam METRICS_FILE=../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/duplication_stats.txt REMOVE_DUPLICATES=false ASSUME_SORTED=false TMP_DIR=[../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/tmp]    MAX_SEQUENCES_FOR_DISK_READ_ENDS_MAP=50000 MAX_FILE_HANDLES_FOR_READ_ENDS_MAP=8000 SORTING_COLLECTION_SIZE_RATIO=0.25 PROGRAM_RECORD_ID=MarkDuplicates PROGRAM_GROUP_NAME=MarkDuplicates DUPLICATE_SCORING_STRATEGY=SUM_OF_BASE_QUALITIES READ_NAME_REGEX=[a-zA-Z0-9]+:[0-9]:([0-9]+):([0-9]+):([0-9]+).* OPTICAL_DUPLICATE_PIXEL_DISTANCE=100 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Mon Jul 11 15:20:53 PDT 2016] Executing as dpolioud@dg-compute-0-2.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.131() JdkDeflater
+INFO	2016-07-11 15:20:53	MarkDuplicates	Start of doWork freeMemory: 2016831648; totalMemory: 2028470272; maxMemory: 3817865216
+INFO	2016-07-11 15:20:53	MarkDuplicates	Reading input file and constructing read end information.
+INFO	2016-07-11 15:20:53	MarkDuplicates	Will retain up to 14684096 data points before spilling to disk.
+INFO	2016-07-11 15:20:58	MarkDuplicates	Read     1,000,000 records.  Elapsed time: 00:00:04s.  Time for last 1,000,000:    4s.  Last read position: 1:61,924,377
+INFO	2016-07-11 15:20:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:01	MarkDuplicates	Read     2,000,000 records.  Elapsed time: 00:00:08s.  Time for last 1,000,000:    3s.  Last read position: 1:176,856,565
+INFO	2016-07-11 15:21:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:05	MarkDuplicates	Read     3,000,000 records.  Elapsed time: 00:00:12s.  Time for last 1,000,000:    3s.  Last read position: 10:27,486,084
+INFO	2016-07-11 15:21:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:10	MarkDuplicates	Read     4,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:    4s.  Last read position: 11:10,530,277
+INFO	2016-07-11 15:21:10	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:13	MarkDuplicates	Read     5,000,000 records.  Elapsed time: 00:00:20s.  Time for last 1,000,000:    3s.  Last read position: 11:65,267,987
+INFO	2016-07-11 15:21:13	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:17	MarkDuplicates	Read     6,000,000 records.  Elapsed time: 00:00:23s.  Time for last 1,000,000:    3s.  Last read position: 12:366,810
+INFO	2016-07-11 15:21:17	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:21	MarkDuplicates	Read     7,000,000 records.  Elapsed time: 00:00:27s.  Time for last 1,000,000:    3s.  Last read position: 12:92,539,569
+INFO	2016-07-11 15:21:21	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:25	MarkDuplicates	Read     8,000,000 records.  Elapsed time: 00:00:31s.  Time for last 1,000,000:    3s.  Last read position: 13:98,855,315
+INFO	2016-07-11 15:21:25	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:29	MarkDuplicates	Read     9,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:    3s.  Last read position: 14:100,744,552
+INFO	2016-07-11 15:21:29	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:32	MarkDuplicates	Read    10,000,000 records.  Elapsed time: 00:00:39s.  Time for last 1,000,000:    3s.  Last read position: 15:84,942,750
+INFO	2016-07-11 15:21:32	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:36	MarkDuplicates	Read    11,000,000 records.  Elapsed time: 00:00:43s.  Time for last 1,000,000:    3s.  Last read position: 16:87,437,979
+INFO	2016-07-11 15:21:36	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:40	MarkDuplicates	Read    12,000,000 records.  Elapsed time: 00:00:46s.  Time for last 1,000,000:    3s.  Last read position: 17:37,360,432
+INFO	2016-07-11 15:21:40	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:44	MarkDuplicates	Read    13,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:    3s.  Last read position: 18:48,564,036
+INFO	2016-07-11 15:21:44	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:48	MarkDuplicates	Read    14,000,000 records.  Elapsed time: 00:00:54s.  Time for last 1,000,000:    4s.  Last read position: 19:58,068,016
+INFO	2016-07-11 15:21:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:21:58	MarkDuplicates	Read    15,000,000 records.  Elapsed time: 00:01:04s.  Time for last 1,000,000:    9s.  Last read position: 2:85,133,152
+INFO	2016-07-11 15:21:58	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:01	MarkDuplicates	Read    16,000,000 records.  Elapsed time: 00:01:08s.  Time for last 1,000,000:    3s.  Last read position: 2:180,604,036
+INFO	2016-07-11 15:22:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:05	MarkDuplicates	Read    17,000,000 records.  Elapsed time: 00:01:11s.  Time for last 1,000,000:    3s.  Last read position: 20:32,198,942
+INFO	2016-07-11 15:22:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:09	MarkDuplicates	Read    18,000,000 records.  Elapsed time: 00:01:15s.  Time for last 1,000,000:    3s.  Last read position: 22:29,723,847
+INFO	2016-07-11 15:22:09	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:13	MarkDuplicates	Read    19,000,000 records.  Elapsed time: 00:01:19s.  Time for last 1,000,000:    3s.  Last read position: 3:77,526,592
+INFO	2016-07-11 15:22:13	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:16	MarkDuplicates	Read    20,000,000 records.  Elapsed time: 00:01:23s.  Time for last 1,000,000:    3s.  Last read position: 3:195,036,994
+INFO	2016-07-11 15:22:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:20	MarkDuplicates	Read    21,000,000 records.  Elapsed time: 00:01:26s.  Time for last 1,000,000:    3s.  Last read position: 4:125,591,729
+INFO	2016-07-11 15:22:20	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:25	MarkDuplicates	Read    22,000,000 records.  Elapsed time: 00:01:31s.  Time for last 1,000,000:    4s.  Last read position: 5:71,501,413
+INFO	2016-07-11 15:22:25	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:28	MarkDuplicates	Read    23,000,000 records.  Elapsed time: 00:01:35s.  Time for last 1,000,000:    3s.  Last read position: 5:158,623,884
+INFO	2016-07-11 15:22:28	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:32	MarkDuplicates	Read    24,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:    3s.  Last read position: 6:64,401,867
+INFO	2016-07-11 15:22:32	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:36	MarkDuplicates	Read    25,000,000 records.  Elapsed time: 00:01:43s.  Time for last 1,000,000:    4s.  Last read position: 7:11,078,459
+INFO	2016-07-11 15:22:36	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:40	MarkDuplicates	Read    26,000,000 records.  Elapsed time: 00:01:47s.  Time for last 1,000,000:    4s.  Last read position: 7:105,222,935
+INFO	2016-07-11 15:22:40	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:44	MarkDuplicates	Read    27,000,000 records.  Elapsed time: 00:01:51s.  Time for last 1,000,000:    3s.  Last read position: 8:54,899,561
+INFO	2016-07-11 15:22:44	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:48	MarkDuplicates	Read    28,000,000 records.  Elapsed time: 00:01:54s.  Time for last 1,000,000:    3s.  Last read position: 9:10,515,600
+INFO	2016-07-11 15:22:48	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:22:52	MarkDuplicates	Read    29,000,000 records.  Elapsed time: 00:01:58s.  Time for last 1,000,000:    4s.  Last read position: 9:139,997,824
+INFO	2016-07-11 15:22:52	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:23:01	MarkDuplicates	Read    30,000,000 records.  Elapsed time: 00:02:08s.  Time for last 1,000,000:    9s.  Last read position: MT:2,212
+INFO	2016-07-11 15:23:01	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:23:05	MarkDuplicates	Read    31,000,000 records.  Elapsed time: 00:02:11s.  Time for last 1,000,000:    3s.  Last read position: MT:4,207
+INFO	2016-07-11 15:23:05	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:23:09	MarkDuplicates	Read    32,000,000 records.  Elapsed time: 00:02:15s.  Time for last 1,000,000:    3s.  Last read position: X:101,860,569
+INFO	2016-07-11 15:23:09	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:23:13	MarkDuplicates	Read    33,000,000 records.  Elapsed time: 00:02:19s.  Time for last 1,000,000:    3s.  Last read position: GL000220.1:109,798
+INFO	2016-07-11 15:23:13	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:23:16	MarkDuplicates	Read    34,000,000 records.  Elapsed time: 00:02:22s.  Time for last 1,000,000:    3s.  Last read position: GL000220.1:110,006
+INFO	2016-07-11 15:23:16	MarkDuplicates	Tracking 0 as yet unmatched pairs. 0 records in RAM.
+INFO	2016-07-11 15:23:19	MarkDuplicates	Read 34989027 records. 0 pairs never matched.
+INFO	2016-07-11 15:23:21	MarkDuplicates	After buildSortedReadEndLists freeMemory: 2191893296; totalMemory: 2279079936; maxMemory: 3817865216
+INFO	2016-07-11 15:23:21	MarkDuplicates	Will retain up to 119308288 duplicate indices before spilling to disk.
+INFO	2016-07-11 15:23:22	MarkDuplicates	Traversing read pair information and detecting duplicates.
+INFO	2016-07-11 15:23:22	MarkDuplicates	Traversing fragment information and detecting duplicates.
+INFO	2016-07-11 15:23:31	MarkDuplicates	Sorting list of duplicate records.
+INFO	2016-07-11 15:23:31	MarkDuplicates	After generateDuplicateIndexes freeMemory: 2250024632; totalMemory: 3229614080; maxMemory: 3817865216
+INFO	2016-07-11 15:23:31	MarkDuplicates	Marking 23635556 records as duplicates.
+INFO	2016-07-11 15:23:31	MarkDuplicates	Found 0 optical duplicate clusters.
+INFO	2016-07-11 15:25:43	MarkDuplicates	Written    10,000,000 records.  Elapsed time: 00:02:11s.  Time for last 10,000,000:  131s.  Last read position: 15:84,942,750
+INFO	2016-07-11 15:27:55	MarkDuplicates	Written    20,000,000 records.  Elapsed time: 00:04:23s.  Time for last 10,000,000:  131s.  Last read position: 3:195,036,994
+INFO	2016-07-11 15:30:05	MarkDuplicates	Written    30,000,000 records.  Elapsed time: 00:06:33s.  Time for last 10,000,000:  129s.  Last read position: MT:2,212
+INFO	2016-07-11 15:32:04	MarkDuplicates	Written    40,000,000 records.  Elapsed time: 00:08:32s.  Time for last 10,000,000:  119s.  Last read position: */*
+INFO	2016-07-11 15:33:56	MarkDuplicates	Written    50,000,000 records.  Elapsed time: 00:10:24s.  Time for last 10,000,000:  112s.  Last read position: */*
+INFO	2016-07-11 15:34:20	MarkDuplicates	Before output close freeMemory: 3257069512; totalMemory: 3287810048; maxMemory: 3817865216
+INFO	2016-07-11 15:34:21	MarkDuplicates	After output close freeMemory: 3257068576; totalMemory: 3287810048; maxMemory: 3817865216
+[Mon Jul 11 15:34:21 PDT 2016] picard.sam.markduplicates.MarkDuplicates done. Elapsed time: 13.46 minutes.
+Runtime.totalMemory()=3287810048

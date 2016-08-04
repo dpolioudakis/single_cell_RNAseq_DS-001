@@ -1,0 +1,11 @@
+
+Starting Reads_Per_Cell_Histogram_HsMm.sh...Thu Jun 23 15:14:36 PDT 2016
+
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703
+
+End of Reads_Per_Cell_Histogram_HsMm.sh... Thu Jun 23 15:20:36 PDT 2016

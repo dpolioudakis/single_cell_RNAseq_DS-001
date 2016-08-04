@@ -1,0 +1,18 @@
+Starting 2_QC_and_Index.sh... Mon Jul 11 14:41:30 PDT 2016
+In dirs:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/Picard_Stats
+Number of lanes:
+1
+Running QC stats scripts from PicardTools...
+Sorting BAM...
+sorted_reads.bam is now created
+sorted reads file is now indexed
+reordered_reads.bam is now created
+alignment_stats.txt is now created
+rnaseq_stats.txt is now created
+gcbias_summary stats are now created
+duplicates are now marked
+cleaning up the extra .bam files
+End of 2_QC_and_Index.sh... Mon Jul 11 15:24:24 PDT 2016

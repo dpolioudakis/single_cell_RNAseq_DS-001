@@ -1,0 +1,11 @@
+
+Starting Reads_Per_Cell_Histogram.sh...Mon Jul 11 14:21:15 PDT 2016
+
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702
+Submitting Drop-seq BAMTagHistogram script for:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703
+
+End of Reads_Per_Cell_Histogram.sh... Mon Jul 11 14:27:47 PDT 2016

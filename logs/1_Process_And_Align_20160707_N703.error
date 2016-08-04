@@ -1,0 +1,441 @@
+[Thu Jul 07 18:19:12 PDT 2016] org.broadinstitute.dropseqrna.utils.TagBamWithReadSequenceExtended INPUT=/dev/stdin OUTPUT=/dev/stdout SUMMARY=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/unaligned_tagged_Molecular.bam_summary.txt BASE_RANGE=13-20 BARCODED_READ=1 DISCARD_READ=true BASE_QUALITY=10 NUM_BASES_BELOW_QUALITY=1 TAG_NAME=XM COMPRESSION_LEVEL=0    TAG_BARCODED_READ=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 18:19:12 PDT 2016] org.broadinstitute.dropseqrna.utils.FilterBAM INPUT=/dev/stdin OUTPUT=/dev/stdout TAG_REJECT=[XQ] COMPRESSION_LEVEL=0    FILTER_PCR_DUPES=false RETAIN_ONLY_PRIMARY_READS=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 18:19:12 PDT 2016] org.broadinstitute.dropseqrna.utils.TagBamWithReadSequenceExtended INPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/unaligned_data.bam OUTPUT=/dev/stdout SUMMARY=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/unaligned_tagged_Cellular.bam_summary.txt BASE_RANGE=1-12 BARCODED_READ=1 DISCARD_READ=false BASE_QUALITY=10 NUM_BASES_BELOW_QUALITY=1 TAG_NAME=XC COMPRESSION_LEVEL=0    TAG_BARCODED_READ=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 18:19:12 PDT 2016] org.broadinstitute.dropseqrna.readtrimming.TrimStartingSequence INPUT=/dev/stdin OUTPUT=/dev/stdout OUTPUT_SUMMARY=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/adapter_trimming_report.txt SEQUENCE=AAGCAGTGGTATCAACGCAGAGTGAATGGG MISMATCHES=0 NUM_BASES=5 COMPRESSION_LEVEL=0    TRIM_TAG=ZS VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 18:19:12 PDT 2016] org.broadinstitute.dropseqrna.readtrimming.PolyATrimmer INPUT=/dev/stdin OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/tmp/unaligned_mc_tagged_polyA_filtered.bam OUTPUT_SUMMARY=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/polyA_trimming_report.txt MISMATCHES=0 NUM_BASES=6    USE_NEW_TRIMMER=false TRIM_TAG=ZP ADAPTER=^XM^XCACGTACTCTGCGTTGCTACCACTG MAX_ADAPTER_ERROR_RATE=0.1 MIN_ADAPTER_MATCH=4 MIN_POLY_A_LENGTH=20 MIN_POLY_A_LENGTH_NO_ADAPTER_MATCH=6 DUBIOUS_ADAPTER_MATCH_LENGTH=6 MAX_POLY_A_ERROR_RATE=0.1 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 18:19:12 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater[Thu Jul 07 18:19:12 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater
+
+[Thu Jul 07 18:19:12 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater[Thu Jul 07 18:19:12 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater
+
+[Thu Jul 07 18:19:12 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater
+INFO	2016-07-07 18:19:38	TagBamWithReadSequenceExtended	Processed     1,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2016-07-07 18:19:38	TagBamWithReadSequenceExtended	Processed     1,000,000 records.  Elapsed time: 00:00:25s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2016-07-07 18:20:03	TagBamWithReadSequenceExtended	Processed     2,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:20:03	TagBamWithReadSequenceExtended	Processed     2,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:20:03	FilterBAM	Processed     1,000,000 records.  Elapsed time: 00:00:50s.  Time for last 1,000,000:   50s.  Last read position: */*
+INFO	2016-07-07 18:20:03	TrimStartingSequence	Processed     1,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:   50s.  Last read position: */*
+INFO	2016-07-07 18:20:03	PolyATrimmer	Processed     1,000,000 records.  Elapsed time: 00:00:51s.  Time for last 1,000,000:   50s.  Last read position: */*
+INFO	2016-07-07 18:20:26	TagBamWithReadSequenceExtended	Processed     3,000,000 records.  Elapsed time: 00:01:14s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:20:26	TagBamWithReadSequenceExtended	Processed     3,000,000 records.  Elapsed time: 00:01:13s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:20:49	TagBamWithReadSequenceExtended	Processed     4,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:20:49	TagBamWithReadSequenceExtended	Processed     4,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:20:49	FilterBAM	Processed     2,000,000 records.  Elapsed time: 00:01:37s.  Time for last 1,000,000:   46s.  Last read position: */*
+INFO	2016-07-07 18:20:50	TrimStartingSequence	Processed     2,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:   46s.  Last read position: */*
+INFO	2016-07-07 18:20:50	PolyATrimmer	Processed     2,000,000 records.  Elapsed time: 00:01:38s.  Time for last 1,000,000:   46s.  Last read position: */*
+INFO	2016-07-07 18:21:14	TagBamWithReadSequenceExtended	Processed     5,000,000 records.  Elapsed time: 00:02:02s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:21:14	TagBamWithReadSequenceExtended	Processed     5,000,000 records.  Elapsed time: 00:02:01s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:21:40	TagBamWithReadSequenceExtended	Processed     6,000,000 records.  Elapsed time: 00:02:28s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:21:40	TagBamWithReadSequenceExtended	Processed     6,000,000 records.  Elapsed time: 00:02:28s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:21:40	FilterBAM	Processed     3,000,000 records.  Elapsed time: 00:02:28s.  Time for last 1,000,000:   51s.  Last read position: */*
+INFO	2016-07-07 18:21:41	TrimStartingSequence	Processed     3,000,000 records.  Elapsed time: 00:02:29s.  Time for last 1,000,000:   51s.  Last read position: */*
+INFO	2016-07-07 18:21:41	PolyATrimmer	Processed     3,000,000 records.  Elapsed time: 00:02:29s.  Time for last 1,000,000:   51s.  Last read position: */*
+INFO	2016-07-07 18:22:05	TagBamWithReadSequenceExtended	Processed     7,000,000 records.  Elapsed time: 00:02:53s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:22:05	TagBamWithReadSequenceExtended	Processed     7,000,000 records.  Elapsed time: 00:02:52s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:22:28	TagBamWithReadSequenceExtended	Processed     8,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:22:28	TagBamWithReadSequenceExtended	Processed     8,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:22:28	FilterBAM	Processed     4,000,000 records.  Elapsed time: 00:03:16s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2016-07-07 18:22:30	TrimStartingSequence	Processed     4,000,000 records.  Elapsed time: 00:03:17s.  Time for last 1,000,000:   48s.  Last read position: */*
+INFO	2016-07-07 18:22:30	PolyATrimmer	Processed     4,000,000 records.  Elapsed time: 00:03:17s.  Time for last 1,000,000:   48s.  Last read position: */*
+INFO	2016-07-07 18:22:50	TagBamWithReadSequenceExtended	Processed     9,000,000 records.  Elapsed time: 00:03:37s.  Time for last 1,000,000:   21s.  Last read position: */*
+INFO	2016-07-07 18:22:50	TagBamWithReadSequenceExtended	Processed     9,000,000 records.  Elapsed time: 00:03:37s.  Time for last 1,000,000:   21s.  Last read position: */*
+INFO	2016-07-07 18:23:13	TagBamWithReadSequenceExtended	Processed    10,000,000 records.  Elapsed time: 00:04:01s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:23:13	TagBamWithReadSequenceExtended	Processed    10,000,000 records.  Elapsed time: 00:04:01s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:23:13	FilterBAM	Processed     5,000,000 records.  Elapsed time: 00:04:00s.  Time for last 1,000,000:   44s.  Last read position: */*
+INFO	2016-07-07 18:23:15	TrimStartingSequence	Processed     5,000,000 records.  Elapsed time: 00:04:03s.  Time for last 1,000,000:   45s.  Last read position: */*
+INFO	2016-07-07 18:23:15	PolyATrimmer	Processed     5,000,000 records.  Elapsed time: 00:04:03s.  Time for last 1,000,000:   45s.  Last read position: */*
+INFO	2016-07-07 18:23:36	TagBamWithReadSequenceExtended	Processed    11,000,000 records.  Elapsed time: 00:04:24s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:23:36	TagBamWithReadSequenceExtended	Processed    11,000,000 records.  Elapsed time: 00:04:24s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:24:00	TagBamWithReadSequenceExtended	Processed    12,000,000 records.  Elapsed time: 00:04:48s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:24:00	TagBamWithReadSequenceExtended	Processed    12,000,000 records.  Elapsed time: 00:04:48s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:24:00	FilterBAM	Processed     6,000,000 records.  Elapsed time: 00:04:48s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2016-07-07 18:24:03	TrimStartingSequence	Processed     6,000,000 records.  Elapsed time: 00:04:50s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2016-07-07 18:24:03	PolyATrimmer	Processed     6,000,000 records.  Elapsed time: 00:04:50s.  Time for last 1,000,000:   47s.  Last read position: */*
+INFO	2016-07-07 18:24:24	TagBamWithReadSequenceExtended	Processed    13,000,000 records.  Elapsed time: 00:05:11s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:24:24	TagBamWithReadSequenceExtended	Processed    13,000,000 records.  Elapsed time: 00:05:11s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:24:42	TagBamWithReadSequenceExtended	Processed    14,000,000 records.  Elapsed time: 00:05:29s.  Time for last 1,000,000:   17s.  Last read position: */*
+INFO	2016-07-07 18:24:42	TagBamWithReadSequenceExtended	Processed    14,000,000 records.  Elapsed time: 00:05:29s.  Time for last 1,000,000:   17s.  Last read position: */*
+INFO	2016-07-07 18:24:42	FilterBAM	Processed     7,000,000 records.  Elapsed time: 00:05:29s.  Time for last 1,000,000:   41s.  Last read position: */*
+INFO	2016-07-07 18:24:43	TrimStartingSequence	Processed     7,000,000 records.  Elapsed time: 00:05:31s.  Time for last 1,000,000:   40s.  Last read position: */*
+INFO	2016-07-07 18:24:43	PolyATrimmer	Processed     7,000,000 records.  Elapsed time: 00:05:31s.  Time for last 1,000,000:   40s.  Last read position: */*
+INFO	2016-07-07 18:24:59	TagBamWithReadSequenceExtended	Processed    15,000,000 records.  Elapsed time: 00:05:46s.  Time for last 1,000,000:   17s.  Last read position: */*
+INFO	2016-07-07 18:24:59	TagBamWithReadSequenceExtended	Processed    15,000,000 records.  Elapsed time: 00:05:46s.  Time for last 1,000,000:   17s.  Last read position: */*
+INFO	2016-07-07 18:25:17	TagBamWithReadSequenceExtended	Processed    16,000,000 records.  Elapsed time: 00:06:05s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:25:17	TagBamWithReadSequenceExtended	Processed    16,000,000 records.  Elapsed time: 00:06:05s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:25:17	FilterBAM	Processed     8,000,000 records.  Elapsed time: 00:06:04s.  Time for last 1,000,000:   35s.  Last read position: */*
+INFO	2016-07-07 18:25:20	TrimStartingSequence	Processed     8,000,000 records.  Elapsed time: 00:06:07s.  Time for last 1,000,000:   36s.  Last read position: */*
+INFO	2016-07-07 18:25:20	PolyATrimmer	Processed     8,000,000 records.  Elapsed time: 00:06:07s.  Time for last 1,000,000:   36s.  Last read position: */*
+INFO	2016-07-07 18:25:38	TagBamWithReadSequenceExtended	Processed    17,000,000 records.  Elapsed time: 00:06:25s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:25:38	TagBamWithReadSequenceExtended	Processed    17,000,000 records.  Elapsed time: 00:06:25s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:25:57	TagBamWithReadSequenceExtended	Processed    18,000,000 records.  Elapsed time: 00:06:45s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:25:57	TagBamWithReadSequenceExtended	Processed    18,000,000 records.  Elapsed time: 00:06:45s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:25:57	FilterBAM	Processed     9,000,000 records.  Elapsed time: 00:06:44s.  Time for last 1,000,000:   40s.  Last read position: */*
+INFO	2016-07-07 18:26:00	TrimStartingSequence	Processed     9,000,000 records.  Elapsed time: 00:06:47s.  Time for last 1,000,000:   40s.  Last read position: */*
+INFO	2016-07-07 18:26:00	PolyATrimmer	Processed     9,000,000 records.  Elapsed time: 00:06:47s.  Time for last 1,000,000:   40s.  Last read position: */*
+INFO	2016-07-07 18:26:15	TagBamWithReadSequenceExtended	Processed    19,000,000 records.  Elapsed time: 00:07:03s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:26:15	TagBamWithReadSequenceExtended	Processed    19,000,000 records.  Elapsed time: 00:07:03s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:26:24	TagBamWithReadSequenceExtended	Processed    20,000,000 records.  Elapsed time: 00:07:11s.  Time for last 1,000,000:    8s.  Last read position: */*
+INFO	2016-07-07 18:26:24	TagBamWithReadSequenceExtended	Processed    20,000,000 records.  Elapsed time: 00:07:11s.  Time for last 1,000,000:    8s.  Last read position: */*
+INFO	2016-07-07 18:26:24	FilterBAM	Processed    10,000,000 records.  Elapsed time: 00:07:11s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:26:25	TrimStartingSequence	Processed    10,000,000 records.  Elapsed time: 00:07:12s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:26:25	PolyATrimmer	Processed    10,000,000 records.  Elapsed time: 00:07:12s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:26:30	TagBamWithReadSequenceExtended	Processed    21,000,000 records.  Elapsed time: 00:07:17s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-07-07 18:26:30	TagBamWithReadSequenceExtended	Processed    21,000,000 records.  Elapsed time: 00:07:17s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-07-07 18:26:38	TagBamWithReadSequenceExtended	Processed    22,000,000 records.  Elapsed time: 00:07:26s.  Time for last 1,000,000:    8s.  Last read position: */*
+INFO	2016-07-07 18:26:38	TagBamWithReadSequenceExtended	Processed    22,000,000 records.  Elapsed time: 00:07:26s.  Time for last 1,000,000:    8s.  Last read position: */*
+INFO	2016-07-07 18:26:38	FilterBAM	Processed    11,000,000 records.  Elapsed time: 00:07:25s.  Time for last 1,000,000:   14s.  Last read position: */*
+INFO	2016-07-07 18:26:39	TrimStartingSequence	Processed    11,000,000 records.  Elapsed time: 00:07:27s.  Time for last 1,000,000:   14s.  Last read position: */*
+INFO	2016-07-07 18:26:39	PolyATrimmer	Processed    11,000,000 records.  Elapsed time: 00:07:27s.  Time for last 1,000,000:   14s.  Last read position: */*
+INFO	2016-07-07 18:26:45	TagBamWithReadSequenceExtended	Processed    23,000,000 records.  Elapsed time: 00:07:33s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-07-07 18:26:45	TagBamWithReadSequenceExtended	Processed    23,000,000 records.  Elapsed time: 00:07:32s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-07-07 18:26:52	TagBamWithReadSequenceExtended	Processed    24,000,000 records.  Elapsed time: 00:07:39s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-07-07 18:26:52	TagBamWithReadSequenceExtended	Processed    24,000,000 records.  Elapsed time: 00:07:39s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-07-07 18:26:52	FilterBAM	Processed    12,000,000 records.  Elapsed time: 00:07:39s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:26:53	TrimStartingSequence	Processed    12,000,000 records.  Elapsed time: 00:07:41s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:26:53	PolyATrimmer	Processed    12,000,000 records.  Elapsed time: 00:07:41s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:26:58	TagBamWithReadSequenceExtended	Processed    25,000,000 records.  Elapsed time: 00:07:45s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:26:58	TagBamWithReadSequenceExtended	Processed    25,000,000 records.  Elapsed time: 00:07:45s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:27:07	TagBamWithReadSequenceExtended	Processed    26,000,000 records.  Elapsed time: 00:07:54s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:27:07	TagBamWithReadSequenceExtended	Processed    26,000,000 records.  Elapsed time: 00:07:54s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:27:07	FilterBAM	Processed    13,000,000 records.  Elapsed time: 00:07:54s.  Time for last 1,000,000:   15s.  Last read position: */*
+INFO	2016-07-07 18:27:09	TrimStartingSequence	Processed    13,000,000 records.  Elapsed time: 00:07:57s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:27:09	PolyATrimmer	Processed    13,000,000 records.  Elapsed time: 00:07:57s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:27:17	TagBamWithReadSequenceExtended	Processed    27,000,000 records.  Elapsed time: 00:08:04s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:27:17	TagBamWithReadSequenceExtended	Processed    27,000,000 records.  Elapsed time: 00:08:04s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:27:28	TagBamWithReadSequenceExtended	Processed    28,000,000 records.  Elapsed time: 00:08:15s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:27:28	TagBamWithReadSequenceExtended	Processed    28,000,000 records.  Elapsed time: 00:08:15s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:27:28	FilterBAM	Processed    14,000,000 records.  Elapsed time: 00:08:15s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:27:31	TrimStartingSequence	Processed    14,000,000 records.  Elapsed time: 00:08:19s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:27:31	PolyATrimmer	Processed    14,000,000 records.  Elapsed time: 00:08:19s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:27:41	TagBamWithReadSequenceExtended	Processed    29,000,000 records.  Elapsed time: 00:08:29s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:27:41	TagBamWithReadSequenceExtended	Processed    29,000,000 records.  Elapsed time: 00:08:29s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:27:52	TagBamWithReadSequenceExtended	Processed    30,000,000 records.  Elapsed time: 00:08:39s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:27:52	TagBamWithReadSequenceExtended	Processed    30,000,000 records.  Elapsed time: 00:08:39s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:27:52	FilterBAM	Processed    15,000,000 records.  Elapsed time: 00:08:39s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:27:54	TrimStartingSequence	Processed    15,000,000 records.  Elapsed time: 00:08:42s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:27:54	PolyATrimmer	Processed    15,000,000 records.  Elapsed time: 00:08:42s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:28:04	TagBamWithReadSequenceExtended	Processed    31,000,000 records.  Elapsed time: 00:08:52s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:28:04	TagBamWithReadSequenceExtended	Processed    31,000,000 records.  Elapsed time: 00:08:52s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:28:14	TagBamWithReadSequenceExtended	Processed    32,000,000 records.  Elapsed time: 00:09:02s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:28:14	TagBamWithReadSequenceExtended	Processed    32,000,000 records.  Elapsed time: 00:09:02s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:28:14	FilterBAM	Processed    16,000,000 records.  Elapsed time: 00:09:01s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:28:17	TrimStartingSequence	Processed    16,000,000 records.  Elapsed time: 00:09:05s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:28:17	PolyATrimmer	Processed    16,000,000 records.  Elapsed time: 00:09:05s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:28:24	TagBamWithReadSequenceExtended	Processed    33,000,000 records.  Elapsed time: 00:09:12s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:28:24	TagBamWithReadSequenceExtended	Processed    33,000,000 records.  Elapsed time: 00:09:12s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:28:34	TagBamWithReadSequenceExtended	Processed    34,000,000 records.  Elapsed time: 00:09:22s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:28:34	TagBamWithReadSequenceExtended	Processed    34,000,000 records.  Elapsed time: 00:09:22s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:28:34	FilterBAM	Processed    17,000,000 records.  Elapsed time: 00:09:21s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:28:38	TrimStartingSequence	Processed    17,000,000 records.  Elapsed time: 00:09:26s.  Time for last 1,000,000:   21s.  Last read position: */*
+INFO	2016-07-07 18:28:38	PolyATrimmer	Processed    17,000,000 records.  Elapsed time: 00:09:26s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:28:46	TagBamWithReadSequenceExtended	Processed    35,000,000 records.  Elapsed time: 00:09:34s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:28:46	TagBamWithReadSequenceExtended	Processed    35,000,000 records.  Elapsed time: 00:09:33s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:28:57	TagBamWithReadSequenceExtended	Processed    36,000,000 records.  Elapsed time: 00:09:45s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:28:57	TagBamWithReadSequenceExtended	Processed    36,000,000 records.  Elapsed time: 00:09:45s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:28:57	FilterBAM	Processed    18,000,000 records.  Elapsed time: 00:09:45s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:29:01	TrimStartingSequence	Processed    18,000,000 records.  Elapsed time: 00:09:49s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:29:01	PolyATrimmer	Processed    18,000,000 records.  Elapsed time: 00:09:49s.  Time for last 1,000,000:   23s.  Last read position: */*
+INFO	2016-07-07 18:29:09	TagBamWithReadSequenceExtended	Processed    37,000,000 records.  Elapsed time: 00:09:57s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:29:09	TagBamWithReadSequenceExtended	Processed    37,000,000 records.  Elapsed time: 00:09:57s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:29:22	TagBamWithReadSequenceExtended	Processed    38,000,000 records.  Elapsed time: 00:10:10s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:29:22	TagBamWithReadSequenceExtended	Processed    38,000,000 records.  Elapsed time: 00:10:10s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:29:22	FilterBAM	Processed    19,000,000 records.  Elapsed time: 00:10:10s.  Time for last 1,000,000:   24s.  Last read position: */*
+INFO	2016-07-07 18:29:26	TrimStartingSequence	Processed    19,000,000 records.  Elapsed time: 00:10:14s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2016-07-07 18:29:26	PolyATrimmer	Processed    19,000,000 records.  Elapsed time: 00:10:14s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2016-07-07 18:29:35	TagBamWithReadSequenceExtended	Processed    39,000,000 records.  Elapsed time: 00:10:23s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:29:35	TagBamWithReadSequenceExtended	Processed    39,000,000 records.  Elapsed time: 00:10:22s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:29:55	TagBamWithReadSequenceExtended	Processed    40,000,000 records.  Elapsed time: 00:10:42s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:29:55	TagBamWithReadSequenceExtended	Processed    40,000,000 records.  Elapsed time: 00:10:42s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:29:55	FilterBAM	Processed    20,000,000 records.  Elapsed time: 00:10:42s.  Time for last 1,000,000:   32s.  Last read position: */*
+INFO	2016-07-07 18:30:01	TrimStartingSequence	Processed    20,000,000 records.  Elapsed time: 00:10:49s.  Time for last 1,000,000:   34s.  Last read position: */*
+INFO	2016-07-07 18:30:01	PolyATrimmer	Processed    20,000,000 records.  Elapsed time: 00:10:49s.  Time for last 1,000,000:   34s.  Last read position: */*
+INFO	2016-07-07 18:30:12	TagBamWithReadSequenceExtended	Processed    41,000,000 records.  Elapsed time: 00:11:00s.  Time for last 1,000,000:   17s.  Last read position: */*
+INFO	2016-07-07 18:30:12	TagBamWithReadSequenceExtended	Processed    41,000,000 records.  Elapsed time: 00:10:59s.  Time for last 1,000,000:   17s.  Last read position: */*
+INFO	2016-07-07 18:30:33	TagBamWithReadSequenceExtended	Processed    42,000,000 records.  Elapsed time: 00:11:21s.  Time for last 1,000,000:   21s.  Last read position: */*
+INFO	2016-07-07 18:30:33	TagBamWithReadSequenceExtended	Processed    42,000,000 records.  Elapsed time: 00:11:21s.  Time for last 1,000,000:   21s.  Last read position: */*
+INFO	2016-07-07 18:30:33	FilterBAM	Processed    21,000,000 records.  Elapsed time: 00:11:21s.  Time for last 1,000,000:   38s.  Last read position: */*
+INFO	2016-07-07 18:30:40	TrimStartingSequence	Processed    21,000,000 records.  Elapsed time: 00:11:28s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2016-07-07 18:30:40	PolyATrimmer	Processed    21,000,000 records.  Elapsed time: 00:11:28s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2016-07-07 18:30:52	TagBamWithReadSequenceExtended	Processed    43,000,000 records.  Elapsed time: 00:11:40s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:30:52	TagBamWithReadSequenceExtended	Processed    43,000,000 records.  Elapsed time: 00:11:40s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:31:10	TagBamWithReadSequenceExtended	Processed    44,000,000 records.  Elapsed time: 00:11:58s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:31:10	TagBamWithReadSequenceExtended	Processed    44,000,000 records.  Elapsed time: 00:11:58s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:31:10	FilterBAM	Processed    22,000,000 records.  Elapsed time: 00:11:58s.  Time for last 1,000,000:   36s.  Last read position: */*
+INFO	2016-07-07 18:31:18	TrimStartingSequence	Processed    22,000,000 records.  Elapsed time: 00:12:06s.  Time for last 1,000,000:   37s.  Last read position: */*
+INFO	2016-07-07 18:31:18	PolyATrimmer	Processed    22,000,000 records.  Elapsed time: 00:12:06s.  Time for last 1,000,000:   37s.  Last read position: */*
+INFO	2016-07-07 18:31:30	TagBamWithReadSequenceExtended	Processed    45,000,000 records.  Elapsed time: 00:12:18s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:31:30	TagBamWithReadSequenceExtended	Processed    45,000,000 records.  Elapsed time: 00:12:18s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:31:50	TagBamWithReadSequenceExtended	Processed    46,000,000 records.  Elapsed time: 00:12:38s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:31:50	TagBamWithReadSequenceExtended	Processed    46,000,000 records.  Elapsed time: 00:12:38s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:31:50	FilterBAM	Processed    23,000,000 records.  Elapsed time: 00:12:38s.  Time for last 1,000,000:   40s.  Last read position: */*
+INFO	2016-07-07 18:31:57	TrimStartingSequence	Processed    23,000,000 records.  Elapsed time: 00:12:45s.  Time for last 1,000,000:   38s.  Last read position: */*
+INFO	2016-07-07 18:31:57	PolyATrimmer	Processed    23,000,000 records.  Elapsed time: 00:12:45s.  Time for last 1,000,000:   38s.  Last read position: */*
+INFO	2016-07-07 18:32:07	TagBamWithReadSequenceExtended	Processed    47,000,000 records.  Elapsed time: 00:12:55s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:32:07	TagBamWithReadSequenceExtended	Processed    47,000,000 records.  Elapsed time: 00:12:55s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:32:23	TagBamWithReadSequenceExtended	Processed    48,000,000 records.  Elapsed time: 00:13:11s.  Time for last 1,000,000:   15s.  Last read position: */*
+INFO	2016-07-07 18:32:23	TagBamWithReadSequenceExtended	Processed    48,000,000 records.  Elapsed time: 00:13:11s.  Time for last 1,000,000:   15s.  Last read position: */*
+INFO	2016-07-07 18:32:23	FilterBAM	Processed    24,000,000 records.  Elapsed time: 00:13:11s.  Time for last 1,000,000:   32s.  Last read position: */*
+INFO	2016-07-07 18:32:30	TrimStartingSequence	Processed    24,000,000 records.  Elapsed time: 00:13:18s.  Time for last 1,000,000:   33s.  Last read position: */*
+INFO	2016-07-07 18:32:30	PolyATrimmer	Processed    24,000,000 records.  Elapsed time: 00:13:18s.  Time for last 1,000,000:   33s.  Last read position: */*
+INFO	2016-07-07 18:32:39	TagBamWithReadSequenceExtended	Processed    49,000,000 records.  Elapsed time: 00:13:27s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:32:39	TagBamWithReadSequenceExtended	Processed    49,000,000 records.  Elapsed time: 00:13:27s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:32:56	TagBamWithReadSequenceExtended	Processed    50,000,000 records.  Elapsed time: 00:13:43s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:32:56	TagBamWithReadSequenceExtended	Processed    50,000,000 records.  Elapsed time: 00:13:43s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:32:56	FilterBAM	Processed    25,000,000 records.  Elapsed time: 00:13:43s.  Time for last 1,000,000:   32s.  Last read position: */*
+INFO	2016-07-07 18:33:04	TrimStartingSequence	Processed    25,000,000 records.  Elapsed time: 00:13:51s.  Time for last 1,000,000:   33s.  Last read position: */*
+INFO	2016-07-07 18:33:04	PolyATrimmer	Processed    25,000,000 records.  Elapsed time: 00:13:51s.  Time for last 1,000,000:   33s.  Last read position: */*
+INFO	2016-07-07 18:33:14	TagBamWithReadSequenceExtended	Processed    51,000,000 records.  Elapsed time: 00:14:02s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:33:14	TagBamWithReadSequenceExtended	Processed    51,000,000 records.  Elapsed time: 00:14:01s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:33:40	TagBamWithReadSequenceExtended	Processed    52,000,000 records.  Elapsed time: 00:14:27s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2016-07-07 18:33:40	TagBamWithReadSequenceExtended	Processed    52,000,000 records.  Elapsed time: 00:14:27s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2016-07-07 18:33:40	FilterBAM	Processed    26,000,000 records.  Elapsed time: 00:14:27s.  Time for last 1,000,000:   44s.  Last read position: */*
+INFO	2016-07-07 18:33:52	TrimStartingSequence	Processed    26,000,000 records.  Elapsed time: 00:14:39s.  Time for last 1,000,000:   48s.  Last read position: */*
+INFO	2016-07-07 18:33:52	PolyATrimmer	Processed    26,000,000 records.  Elapsed time: 00:14:39s.  Time for last 1,000,000:   48s.  Last read position: */*
+INFO	2016-07-07 18:34:06	TagBamWithReadSequenceExtended	Processed    53,000,000 records.  Elapsed time: 00:14:54s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:34:06	TagBamWithReadSequenceExtended	Processed    53,000,000 records.  Elapsed time: 00:14:54s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:34:33	TagBamWithReadSequenceExtended	Processed    54,000,000 records.  Elapsed time: 00:15:21s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:34:33	TagBamWithReadSequenceExtended	Processed    54,000,000 records.  Elapsed time: 00:15:21s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:34:33	FilterBAM	Processed    27,000,000 records.  Elapsed time: 00:15:20s.  Time for last 1,000,000:   53s.  Last read position: */*
+INFO	2016-07-07 18:34:46	TrimStartingSequence	Processed    27,000,000 records.  Elapsed time: 00:15:34s.  Time for last 1,000,000:   54s.  Last read position: */*
+INFO	2016-07-07 18:34:46	PolyATrimmer	Processed    27,000,000 records.  Elapsed time: 00:15:34s.  Time for last 1,000,000:   54s.  Last read position: */*
+INFO	2016-07-07 18:35:00	TagBamWithReadSequenceExtended	Processed    55,000,000 records.  Elapsed time: 00:15:48s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:35:00	TagBamWithReadSequenceExtended	Processed    55,000,000 records.  Elapsed time: 00:15:47s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:35:27	TagBamWithReadSequenceExtended	Processed    56,000,000 records.  Elapsed time: 00:16:15s.  Time for last 1,000,000:   27s.  Last read position: */*
+INFO	2016-07-07 18:35:27	TagBamWithReadSequenceExtended	Processed    56,000,000 records.  Elapsed time: 00:16:15s.  Time for last 1,000,000:   27s.  Last read position: */*
+INFO	2016-07-07 18:35:27	FilterBAM	Processed    28,000,000 records.  Elapsed time: 00:16:14s.  Time for last 1,000,000:   54s.  Last read position: */*
+INFO	2016-07-07 18:35:40	TrimStartingSequence	Processed    28,000,000 records.  Elapsed time: 00:16:28s.  Time for last 1,000,000:   54s.  Last read position: */*
+INFO	2016-07-07 18:35:40	PolyATrimmer	Processed    28,000,000 records.  Elapsed time: 00:16:28s.  Time for last 1,000,000:   54s.  Last read position: */*
+INFO	2016-07-07 18:35:54	TagBamWithReadSequenceExtended	Processed    57,000,000 records.  Elapsed time: 00:16:42s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:35:54	TagBamWithReadSequenceExtended	Processed    57,000,000 records.  Elapsed time: 00:16:41s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:36:07	TagBamWithReadSequenceExtended	Processed    58,000,000 records.  Elapsed time: 00:16:54s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:36:07	TagBamWithReadSequenceExtended	Processed    58,000,000 records.  Elapsed time: 00:16:54s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:36:07	FilterBAM	Processed    29,000,000 records.  Elapsed time: 00:16:54s.  Time for last 1,000,000:   39s.  Last read position: */*
+INFO	2016-07-07 18:36:11	TrimStartingSequence	Processed    29,000,000 records.  Elapsed time: 00:16:59s.  Time for last 1,000,000:   31s.  Last read position: */*
+INFO	2016-07-07 18:36:11	PolyATrimmer	Processed    29,000,000 records.  Elapsed time: 00:16:59s.  Time for last 1,000,000:   31s.  Last read position: */*
+INFO	2016-07-07 18:36:16	TagBamWithReadSequenceExtended	Processed    59,000,000 records.  Elapsed time: 00:17:04s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:16	TagBamWithReadSequenceExtended	Processed    59,000,000 records.  Elapsed time: 00:17:03s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:26	TagBamWithReadSequenceExtended	Processed    60,000,000 records.  Elapsed time: 00:17:13s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:26	TagBamWithReadSequenceExtended	Processed    60,000,000 records.  Elapsed time: 00:17:13s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:26	FilterBAM	Processed    30,000,000 records.  Elapsed time: 00:17:13s.  Time for last 1,000,000:   18s.  Last read position: */*
+INFO	2016-07-07 18:36:30	TrimStartingSequence	Processed    30,000,000 records.  Elapsed time: 00:17:18s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:36:31	PolyATrimmer	Processed    30,000,000 records.  Elapsed time: 00:17:18s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:36:35	TagBamWithReadSequenceExtended	Processed    61,000,000 records.  Elapsed time: 00:17:23s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:35	TagBamWithReadSequenceExtended	Processed    61,000,000 records.  Elapsed time: 00:17:23s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:45	TagBamWithReadSequenceExtended	Processed    62,000,000 records.  Elapsed time: 00:17:33s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:45	TagBamWithReadSequenceExtended	Processed    62,000,000 records.  Elapsed time: 00:17:33s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:45	FilterBAM	Processed    31,000,000 records.  Elapsed time: 00:17:32s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:36:51	TrimStartingSequence	Processed    31,000,000 records.  Elapsed time: 00:17:38s.  Time for last 1,000,000:   20s.  Last read position: */*
+INFO	2016-07-07 18:36:51	PolyATrimmer	Processed    31,000,000 records.  Elapsed time: 00:17:38s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:36:55	TagBamWithReadSequenceExtended	Processed    63,000,000 records.  Elapsed time: 00:17:43s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:36:55	TagBamWithReadSequenceExtended	Processed    63,000,000 records.  Elapsed time: 00:17:43s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:37:04	TagBamWithReadSequenceExtended	Processed    64,000,000 records.  Elapsed time: 00:17:52s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:37:04	TagBamWithReadSequenceExtended	Processed    64,000,000 records.  Elapsed time: 00:17:52s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:37:04	FilterBAM	Processed    32,000,000 records.  Elapsed time: 00:17:52s.  Time for last 1,000,000:   19s.  Last read position: */*
+INFO	2016-07-07 18:37:07	TrimStartingSequence	Processed    32,000,000 records.  Elapsed time: 00:17:55s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:37:07	PolyATrimmer	Processed    32,000,000 records.  Elapsed time: 00:17:55s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:37:10	TagBamWithReadSequenceExtended	Processed    65,000,000 records.  Elapsed time: 00:17:57s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:10	TagBamWithReadSequenceExtended	Processed    65,000,000 records.  Elapsed time: 00:17:57s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:15	TagBamWithReadSequenceExtended	Processed    66,000,000 records.  Elapsed time: 00:18:03s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:15	TagBamWithReadSequenceExtended	Processed    66,000,000 records.  Elapsed time: 00:18:02s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:15	FilterBAM	Processed    33,000,000 records.  Elapsed time: 00:18:02s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:37:18	TrimStartingSequence	Processed    33,000,000 records.  Elapsed time: 00:18:06s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:37:18	PolyATrimmer	Processed    33,000,000 records.  Elapsed time: 00:18:06s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:37:21	TagBamWithReadSequenceExtended	Processed    67,000,000 records.  Elapsed time: 00:18:09s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-07-07 18:37:21	TagBamWithReadSequenceExtended	Processed    67,000,000 records.  Elapsed time: 00:18:08s.  Time for last 1,000,000:    6s.  Last read position: */*
+INFO	2016-07-07 18:37:27	TagBamWithReadSequenceExtended	Processed    68,000,000 records.  Elapsed time: 00:18:14s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:27	TagBamWithReadSequenceExtended	Processed    68,000,000 records.  Elapsed time: 00:18:14s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:27	FilterBAM	Processed    34,000,000 records.  Elapsed time: 00:18:14s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:37:30	TrimStartingSequence	Processed    34,000,000 records.  Elapsed time: 00:18:17s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:37:30	PolyATrimmer	Processed    34,000,000 records.  Elapsed time: 00:18:17s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:37:32	TagBamWithReadSequenceExtended	Processed    69,000,000 records.  Elapsed time: 00:18:19s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:32	TagBamWithReadSequenceExtended	Processed    69,000,000 records.  Elapsed time: 00:18:19s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:37	TagBamWithReadSequenceExtended	Processed    70,000,000 records.  Elapsed time: 00:18:25s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:37	TagBamWithReadSequenceExtended	Processed    70,000,000 records.  Elapsed time: 00:18:24s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:37	FilterBAM	Processed    35,000,000 records.  Elapsed time: 00:18:24s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:37:40	TrimStartingSequence	Processed    35,000,000 records.  Elapsed time: 00:18:28s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:37:40	PolyATrimmer	Processed    35,000,000 records.  Elapsed time: 00:18:28s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:37:42	TagBamWithReadSequenceExtended	Processed    71,000,000 records.  Elapsed time: 00:18:30s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:42	TagBamWithReadSequenceExtended	Processed    71,000,000 records.  Elapsed time: 00:18:30s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:47	TagBamWithReadSequenceExtended	Processed    72,000,000 records.  Elapsed time: 00:18:35s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:47	TagBamWithReadSequenceExtended	Processed    72,000,000 records.  Elapsed time: 00:18:35s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:47	FilterBAM	Processed    36,000,000 records.  Elapsed time: 00:18:35s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:37:51	TrimStartingSequence	Processed    36,000,000 records.  Elapsed time: 00:18:38s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:37:51	PolyATrimmer	Processed    36,000,000 records.  Elapsed time: 00:18:38s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:37:53	TagBamWithReadSequenceExtended	Processed    73,000,000 records.  Elapsed time: 00:18:41s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:53	TagBamWithReadSequenceExtended	Processed    73,000,000 records.  Elapsed time: 00:18:41s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:59	TagBamWithReadSequenceExtended	Processed    74,000,000 records.  Elapsed time: 00:18:46s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:59	TagBamWithReadSequenceExtended	Processed    74,000,000 records.  Elapsed time: 00:18:46s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:37:59	FilterBAM	Processed    37,000,000 records.  Elapsed time: 00:18:46s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:38:02	TrimStartingSequence	Processed    37,000,000 records.  Elapsed time: 00:18:50s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:38:02	PolyATrimmer	Processed    37,000,000 records.  Elapsed time: 00:18:50s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:38:04	TagBamWithReadSequenceExtended	Processed    75,000,000 records.  Elapsed time: 00:18:52s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:38:04	TagBamWithReadSequenceExtended	Processed    75,000,000 records.  Elapsed time: 00:18:51s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:38:09	TagBamWithReadSequenceExtended	Processed    76,000,000 records.  Elapsed time: 00:18:57s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:38:09	TagBamWithReadSequenceExtended	Processed    76,000,000 records.  Elapsed time: 00:18:57s.  Time for last 1,000,000:    5s.  Last read position: */*
+INFO	2016-07-07 18:38:09	FilterBAM	Processed    38,000,000 records.  Elapsed time: 00:18:56s.  Time for last 1,000,000:   10s.  Last read position: */*
+INFO	2016-07-07 18:38:13	TrimStartingSequence	Processed    38,000,000 records.  Elapsed time: 00:19:01s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:38:13	PolyATrimmer	Processed    38,000,000 records.  Elapsed time: 00:19:01s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:38:18	TagBamWithReadSequenceExtended	Processed    77,000,000 records.  Elapsed time: 00:19:06s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:38:18	TagBamWithReadSequenceExtended	Processed    77,000,000 records.  Elapsed time: 00:19:06s.  Time for last 1,000,000:    9s.  Last read position: */*
+INFO	2016-07-07 18:38:40	TagBamWithReadSequenceExtended	Processed    78,000,000 records.  Elapsed time: 00:19:28s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:38:40	TagBamWithReadSequenceExtended	Processed    78,000,000 records.  Elapsed time: 00:19:28s.  Time for last 1,000,000:   22s.  Last read position: */*
+INFO	2016-07-07 18:38:40	FilterBAM	Processed    39,000,000 records.  Elapsed time: 00:19:28s.  Time for last 1,000,000:   31s.  Last read position: */*
+INFO	2016-07-07 18:38:57	TrimStartingSequence	Processed    39,000,000 records.  Elapsed time: 00:19:45s.  Time for last 1,000,000:   43s.  Last read position: */*
+INFO	2016-07-07 18:38:57	PolyATrimmer	Processed    39,000,000 records.  Elapsed time: 00:19:45s.  Time for last 1,000,000:   43s.  Last read position: */*
+INFO	2016-07-07 18:39:06	TagBamWithReadSequenceExtended	Processed    79,000,000 records.  Elapsed time: 00:19:54s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2016-07-07 18:39:06	TagBamWithReadSequenceExtended	Processed    79,000,000 records.  Elapsed time: 00:19:53s.  Time for last 1,000,000:   25s.  Last read position: */*
+INFO	2016-07-07 18:39:33	TagBamWithReadSequenceExtended	Processed    80,000,000 records.  Elapsed time: 00:20:20s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:39:33	TagBamWithReadSequenceExtended	Processed    80,000,000 records.  Elapsed time: 00:20:20s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:39:33	FilterBAM	Processed    40,000,000 records.  Elapsed time: 00:20:20s.  Time for last 1,000,000:   52s.  Last read position: */*
+INFO	2016-07-07 18:39:51	TrimStartingSequence	Processed    40,000,000 records.  Elapsed time: 00:20:39s.  Time for last 1,000,000:   54s.  Last read position: */*
+INFO	2016-07-07 18:39:51	PolyATrimmer	Processed    40,000,000 records.  Elapsed time: 00:20:39s.  Time for last 1,000,000:   54s.  Last read position: */*
+INFO	2016-07-07 18:40:00	TagBamWithReadSequenceExtended	Processed    81,000,000 records.  Elapsed time: 00:20:47s.  Time for last 1,000,000:   26s.  Last read position: */*
+INFO	2016-07-07 18:40:00	TagBamWithReadSequenceExtended	Processed    81,000,000 records.  Elapsed time: 00:20:47s.  Time for last 1,000,000:   26s.  Last read position: */*
+[Thu Jul 07 18:40:22 PDT 2016] org.broadinstitute.dropseqrna.utils.TagBamWithReadSequenceExtended done. Elapsed time: 21.17 minutes.
+Runtime.totalMemory()=1491075072
+[Thu Jul 07 18:40:22 PDT 2016] org.broadinstitute.dropseqrna.utils.TagBamWithReadSequenceExtended done. Elapsed time: 21.17 minutes.
+Runtime.totalMemory()=1491075072
+[Thu Jul 07 18:40:22 PDT 2016] org.broadinstitute.dropseqrna.utils.FilterBAM done. Elapsed time: 21.17 minutes.
+Runtime.totalMemory()=1491075072
+INFO	2016-07-07 18:40:22	TrimStartingSequence	Number of reads trimmed: 4619006 total reads: 40572706
+[Thu Jul 07 18:40:22 PDT 2016] org.broadinstitute.dropseqrna.readtrimming.TrimStartingSequence done. Elapsed time: 21.17 minutes.
+Runtime.totalMemory()=1491075072
+INFO	2016-07-07 18:40:22	PolyATrimmer	Number of reads trimmed: 14753444
+INFO	2016-07-07 18:40:22	PolyATrimmer	Number of reads completely trimmed: 244064
+[Thu Jul 07 18:40:22 PDT 2016] org.broadinstitute.dropseqrna.readtrimming.PolyATrimmer done. Elapsed time: 21.17 minutes.
+Runtime.totalMemory()=1491075072
+[Thu Jul 07 18:40:23 PDT 2016] picard.sam.SamToFastq INPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/tmp/unaligned_mc_tagged_polyA_filtered.bam FASTQ=/dev/stdout    OUTPUT_PER_RG=false RG_TAG=PU RE_REVERSE=true INTERLEAVE=false INCLUDE_NON_PF_READS=false READ1_TRIM=0 READ2_TRIM=0 INCLUDE_NON_PRIMARY_ALIGNMENTS=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 18:40:23 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.138(89618e408692ff6288c7c880658f32f16fcbec53_1441135673) IntelDeflater
+INFO	2016-07-07 18:43:24	SamToFastq	Processed     1,000,000 records.  Elapsed time: 00:03:00s.  Time for last 1,000,000:  180s.  Last read position: */*
+INFO	2016-07-07 18:43:36	SamToFastq	Processed     2,000,000 records.  Elapsed time: 00:03:13s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:43:48	SamToFastq	Processed     3,000,000 records.  Elapsed time: 00:03:25s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:44:00	SamToFastq	Processed     4,000,000 records.  Elapsed time: 00:03:37s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:44:18	SamToFastq	Processed     5,000,000 records.  Elapsed time: 00:03:54s.  Time for last 1,000,000:   17s.  Last read position: */*
+INFO	2016-07-07 18:44:30	SamToFastq	Processed     6,000,000 records.  Elapsed time: 00:04:07s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:44:44	SamToFastq	Processed     7,000,000 records.  Elapsed time: 00:04:21s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:44:56	SamToFastq	Processed     8,000,000 records.  Elapsed time: 00:04:33s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:45:08	SamToFastq	Processed     9,000,000 records.  Elapsed time: 00:04:45s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:45:24	SamToFastq	Processed    10,000,000 records.  Elapsed time: 00:05:01s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:45:36	SamToFastq	Processed    11,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:45:50	SamToFastq	Processed    12,000,000 records.  Elapsed time: 00:05:27s.  Time for last 1,000,000:   14s.  Last read position: */*
+INFO	2016-07-07 18:46:03	SamToFastq	Processed    13,000,000 records.  Elapsed time: 00:05:40s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:46:18	SamToFastq	Processed    14,000,000 records.  Elapsed time: 00:05:55s.  Time for last 1,000,000:   15s.  Last read position: */*
+INFO	2016-07-07 18:46:30	SamToFastq	Processed    15,000,000 records.  Elapsed time: 00:06:07s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:46:44	SamToFastq	Processed    16,000,000 records.  Elapsed time: 00:06:21s.  Time for last 1,000,000:   14s.  Last read position: */*
+INFO	2016-07-07 18:46:57	SamToFastq	Processed    17,000,000 records.  Elapsed time: 00:06:34s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:47:11	SamToFastq	Processed    18,000,000 records.  Elapsed time: 00:06:48s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:47:23	SamToFastq	Processed    19,000,000 records.  Elapsed time: 00:07:00s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:47:35	SamToFastq	Processed    20,000,000 records.  Elapsed time: 00:07:12s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:47:51	SamToFastq	Processed    21,000,000 records.  Elapsed time: 00:07:28s.  Time for last 1,000,000:   15s.  Last read position: */*
+INFO	2016-07-07 18:48:03	SamToFastq	Processed    22,000,000 records.  Elapsed time: 00:07:40s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:48:17	SamToFastq	Processed    23,000,000 records.  Elapsed time: 00:07:53s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:48:30	SamToFastq	Processed    24,000,000 records.  Elapsed time: 00:08:07s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:48:46	SamToFastq	Processed    25,000,000 records.  Elapsed time: 00:08:23s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:48:58	SamToFastq	Processed    26,000,000 records.  Elapsed time: 00:08:35s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:49:13	SamToFastq	Processed    27,000,000 records.  Elapsed time: 00:08:49s.  Time for last 1,000,000:   14s.  Last read position: */*
+INFO	2016-07-07 18:49:25	SamToFastq	Processed    28,000,000 records.  Elapsed time: 00:09:02s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:49:37	SamToFastq	Processed    29,000,000 records.  Elapsed time: 00:09:14s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:49:52	SamToFastq	Processed    30,000,000 records.  Elapsed time: 00:09:29s.  Time for last 1,000,000:   14s.  Last read position: */*
+INFO	2016-07-07 18:50:04	SamToFastq	Processed    31,000,000 records.  Elapsed time: 00:09:41s.  Time for last 1,000,000:   11s.  Last read position: */*
+INFO	2016-07-07 18:50:20	SamToFastq	Processed    32,000,000 records.  Elapsed time: 00:09:57s.  Time for last 1,000,000:   15s.  Last read position: */*
+INFO	2016-07-07 18:50:33	SamToFastq	Processed    33,000,000 records.  Elapsed time: 00:10:10s.  Time for last 1,000,000:   13s.  Last read position: */*
+INFO	2016-07-07 18:50:45	SamToFastq	Processed    34,000,000 records.  Elapsed time: 00:10:22s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:50:58	SamToFastq	Processed    35,000,000 records.  Elapsed time: 00:10:35s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:51:14	SamToFastq	Processed    36,000,000 records.  Elapsed time: 00:10:51s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 18:51:28	SamToFastq	Processed    37,000,000 records.  Elapsed time: 00:11:05s.  Time for last 1,000,000:   14s.  Last read position: */*
+INFO	2016-07-07 18:51:41	SamToFastq	Processed    38,000,000 records.  Elapsed time: 00:11:18s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:51:53	SamToFastq	Processed    39,000,000 records.  Elapsed time: 00:11:30s.  Time for last 1,000,000:   12s.  Last read position: */*
+INFO	2016-07-07 18:52:06	SamToFastq	Processed    40,000,000 records.  Elapsed time: 00:11:43s.  Time for last 1,000,000:   12s.  Last read position: */*
+[Thu Jul 07 18:52:15 PDT 2016] picard.sam.SamToFastq done. Elapsed time: 11.88 minutes.
+Runtime.totalMemory()=1520959488
+[Thu Jul 07 18:52:27 PDT 2016] picard.sam.SortSam INPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/tmp/star.Aligned.out.sam OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/tmp/aligned.sorted.bam SORT_ORDER=queryname TMP_DIR=[/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/tmp]    VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 18:52:27 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.138(89618e408692ff6288c7c880658f32f16fcbec53_1441135673) IntelDeflater
+INFO	2016-07-07 18:53:56	SortSam	Read    10,000,000 records.  Elapsed time: 00:01:27s.  Time for last 10,000,000:   87s.  Last read position: 11:16,264,762
+INFO	2016-07-07 18:55:23	SortSam	Read    20,000,000 records.  Elapsed time: 00:02:54s.  Time for last 10,000,000:   87s.  Last read position: 6:26,104,349
+INFO	2016-07-07 18:56:44	SortSam	Read    30,000,000 records.  Elapsed time: 00:04:16s.  Time for last 10,000,000:   81s.  Last read position: 10:76,184,993
+INFO	2016-07-07 18:57:34	SortSam	Finished reading inputs, merging and writing to output now.
+INFO	2016-07-07 18:58:47	SortSam	Wrote    10,000,000 records from a sorting collection.  Elapsed time: 00:06:18s.  Time for last 10,000,000:   70s.  Last read position: 7:137,198,751
+INFO	2016-07-07 18:59:57	SortSam	Wrote    20,000,000 records from a sorting collection.  Elapsed time: 00:07:29s.  Time for last 10,000,000:   70s.  Last read position: 10:29,188,258
+INFO	2016-07-07 19:01:06	SortSam	Wrote    30,000,000 records from a sorting collection.  Elapsed time: 00:08:38s.  Time for last 10,000,000:   69s.  Last read position: 3:157,998,418
+[Thu Jul 07 19:01:49 PDT 2016] picard.sam.SortSam done. Elapsed time: 9.37 minutes.
+Runtime.totalMemory()=2496135168
+[Thu Jul 07 19:01:49 PDT 2016] org.broadinstitute.dropseqrna.metrics.TagReadWithGeneExon INPUT=/dev/stdin OUTPUT=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/star_gene_exon_tagged.bam TAG=GE ANNOTATIONS_FILE=/geschwindlabshares/RNAseq_singlecellfetal/source/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC.refFlat CREATE_INDEX=true    STRAND_TAG=GS FUNCTION_TAG=XF USE_STRAND_INFO=true ALLOW_MULTI_GENE_READS=false VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 19:01:49 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater
+[Thu Jul 07 19:01:49 PDT 2016] picard.sam.MergeBamAlignment UNMAPPED_BAM=/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/tmp/unaligned_mc_tagged_polyA_filtered.bam ALIGNED_BAM=[/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/tmp/aligned.sorted.bam] OUTPUT=/dev/stdout REFERENCE_SEQUENCE=/geschwindlabshares/RNAseq_singlecellfetal/source/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC.fasta PAIRED_RUN=false INCLUDE_SECONDARY_ALIGNMENTS=false COMPRESSION_LEVEL=0    CLIP_ADAPTERS=true IS_BISULFITE_SEQUENCE=false ALIGNED_READS_ONLY=false MAX_INSERTIONS_OR_DELETIONS=1 READ1_TRIM=0 READ2_TRIM=0 ALIGNER_PROPER_PAIR_FLAGS=false SORT_ORDER=coordinate PRIMARY_ALIGNMENT_STRATEGY=BestMapq CLIP_OVERLAPPING_READS=true ADD_MATE_CIGAR=true VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jul 07 19:01:49 PDT 2016] Executing as dpolioud@dg-compute-0-0.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.138(89618e408692ff6288c7c880658f32f16fcbec53_1441135673) IntelDeflater
+INFO	2016-07-07 19:01:49	SamAlignmentMerger	[/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/tmp/aligned.sorted.bam]
+INFO	2016-07-07 19:02:06	AbstractAlignmentMerger	Merged     1,000,000 records.  Elapsed time: 00:00:16s.  Time for last 1,000,000:   16s.  Last read position: 12:46,226,319
+INFO	2016-07-07 19:02:25	AbstractAlignmentMerger	Merged     2,000,000 records.  Elapsed time: 00:00:35s.  Time for last 1,000,000:   18s.  Last read position: 4:186,669,751
+INFO	2016-07-07 19:02:43	AbstractAlignmentMerger	Merged     3,000,000 records.  Elapsed time: 00:00:53s.  Time for last 1,000,000:   18s.  Last read position: 21:26,119,175
+INFO	2016-07-07 19:03:00	AbstractAlignmentMerger	Merged     4,000,000 records.  Elapsed time: 00:01:10s.  Time for last 1,000,000:   16s.  Last read position: 2:133,565,122
+INFO	2016-07-07 19:03:18	AbstractAlignmentMerger	Merged     5,000,000 records.  Elapsed time: 00:01:28s.  Time for last 1,000,000:   17s.  Last read position: 2:127,948,512
+INFO	2016-07-07 19:03:35	AbstractAlignmentMerger	Merged     6,000,000 records.  Elapsed time: 00:01:45s.  Time for last 1,000,000:   17s.  Last read position: 2:33,992,556
+INFO	2016-07-07 19:03:53	AbstractAlignmentMerger	Merged     7,000,000 records.  Elapsed time: 00:02:03s.  Time for last 1,000,000:   18s.  Last read position: 15:59,185,219
+INFO	2016-07-07 19:04:09	AbstractAlignmentMerger	Merged     8,000,000 records.  Elapsed time: 00:02:20s.  Time for last 1,000,000:   16s.  Last read position: 4:39,455,825
+INFO	2016-07-07 19:04:28	AbstractAlignmentMerger	Merged     9,000,000 records.  Elapsed time: 00:02:38s.  Time for last 1,000,000:   18s.  Last read position: 10:120,817,641
+INFO	2016-07-07 19:04:44	AbstractAlignmentMerger	Merged    10,000,000 records.  Elapsed time: 00:02:55s.  Time for last 1,000,000:   16s.  Last read position: 18:3,278,169
+INFO	2016-07-07 19:05:02	AbstractAlignmentMerger	Merged    11,000,000 records.  Elapsed time: 00:03:12s.  Time for last 1,000,000:   17s.  Last read position: 9:28,166,836
+INFO	2016-07-07 19:05:19	AbstractAlignmentMerger	Merged    12,000,000 records.  Elapsed time: 00:03:29s.  Time for last 1,000,000:   17s.  Last read position: 9:23,692,111
+INFO	2016-07-07 19:05:36	AbstractAlignmentMerger	Merged    13,000,000 records.  Elapsed time: 00:03:46s.  Time for last 1,000,000:   16s.  Last read position: 19:40,567,284
+INFO	2016-07-07 19:05:55	AbstractAlignmentMerger	Merged    14,000,000 records.  Elapsed time: 00:04:05s.  Time for last 1,000,000:   18s.  Last read position: 1:247,226,819
+INFO	2016-07-07 19:06:11	AbstractAlignmentMerger	Merged    15,000,000 records.  Elapsed time: 00:04:21s.  Time for last 1,000,000:   15s.  Last read position: 18:53,018,590
+INFO	2016-07-07 19:06:29	AbstractAlignmentMerger	Merged    16,000,000 records.  Elapsed time: 00:04:40s.  Time for last 1,000,000:   18s.  Last read position: 1:1,605,935
+INFO	2016-07-07 19:06:47	AbstractAlignmentMerger	Merged    17,000,000 records.  Elapsed time: 00:04:57s.  Time for last 1,000,000:   17s.  Last read position: 10:70,101,741
+INFO	2016-07-07 19:07:03	AbstractAlignmentMerger	Merged    18,000,000 records.  Elapsed time: 00:05:13s.  Time for last 1,000,000:   16s.  Last read position: 7:151,843,784
+INFO	2016-07-07 19:07:21	AbstractAlignmentMerger	Merged    19,000,000 records.  Elapsed time: 00:05:31s.  Time for last 1,000,000:   17s.  Last read position: 5:61,684,705
+INFO	2016-07-07 19:07:38	AbstractAlignmentMerger	Merged    20,000,000 records.  Elapsed time: 00:05:48s.  Time for last 1,000,000:   17s.  Last read position: 6:36,570,896
+INFO	2016-07-07 19:07:56	AbstractAlignmentMerger	Merged    21,000,000 records.  Elapsed time: 00:06:06s.  Time for last 1,000,000:   18s.  Last read position: 17:20,937,558
+INFO	2016-07-07 19:08:12	AbstractAlignmentMerger	Merged    22,000,000 records.  Elapsed time: 00:06:22s.  Time for last 1,000,000:   16s.  Last read position: 1:215,433,758
+INFO	2016-07-07 19:08:30	AbstractAlignmentMerger	Merged    23,000,000 records.  Elapsed time: 00:06:40s.  Time for last 1,000,000:   18s.  Last read position: 10:31,616,062
+INFO	2016-07-07 19:08:49	AbstractAlignmentMerger	Merged    24,000,000 records.  Elapsed time: 00:07:00s.  Time for last 1,000,000:   19s.  Last read position: 8:101,734,236
+INFO	2016-07-07 19:09:05	AbstractAlignmentMerger	Merged    25,000,000 records.  Elapsed time: 00:07:15s.  Time for last 1,000,000:   15s.  Last read position: 1:19,935,047
+INFO	2016-07-07 19:09:24	AbstractAlignmentMerger	Merged    26,000,000 records.  Elapsed time: 00:07:34s.  Time for last 1,000,000:   18s.  Last read position: 4:87,189,181
+INFO	2016-07-07 19:10:18	TagReadWithGeneExon	Processed     1,000,000 records.  Elapsed time: 00:08:29s.  Time for last 1,000,000:   36s.  Last read position: 1:86,818,567
+INFO	2016-07-07 19:10:52	TagReadWithGeneExon	Processed     2,000,000 records.  Elapsed time: 00:09:03s.  Time for last 1,000,000:   33s.  Last read position: 1:222,828,041
+INFO	2016-07-07 19:11:24	TagReadWithGeneExon	Processed     3,000,000 records.  Elapsed time: 00:09:35s.  Time for last 1,000,000:   32s.  Last read position: 10:112,044,848
+INFO	2016-07-07 19:12:00	TagReadWithGeneExon	Processed     4,000,000 records.  Elapsed time: 00:10:11s.  Time for last 1,000,000:   35s.  Last read position: 11:65,267,091
+INFO	2016-07-07 19:12:33	TagReadWithGeneExon	Processed     5,000,000 records.  Elapsed time: 00:10:43s.  Time for last 1,000,000:   32s.  Last read position: 11:128,911,170
+INFO	2016-07-07 19:13:06	TagReadWithGeneExon	Processed     6,000,000 records.  Elapsed time: 00:11:17s.  Time for last 1,000,000:   33s.  Last read position: 12:107,085,822
+INFO	2016-07-07 19:13:40	TagReadWithGeneExon	Processed     7,000,000 records.  Elapsed time: 00:11:50s.  Time for last 1,000,000:   33s.  Last read position: 14:31,425,382
+INFO	2016-07-07 19:14:13	TagReadWithGeneExon	Processed     8,000,000 records.  Elapsed time: 00:12:23s.  Time for last 1,000,000:   33s.  Last read position: 15:37,185,857
+INFO	2016-07-07 19:14:51	TagReadWithGeneExon	Processed     9,000,000 records.  Elapsed time: 00:13:02s.  Time for last 1,000,000:   38s.  Last read position: 16:29,531,160
+INFO	2016-07-07 19:15:11	AbstractAlignmentMerger	Written in coordinate order to output    10,000,000 records.  Elapsed time: 00:05:32s.  Time for last 10,000,000:  331s.  Last read position: 17:37,006,717
+INFO	2016-07-07 19:15:11	TagReadWithGeneExon	Processed    10,000,000 records.  Elapsed time: 00:13:21s.  Time for last 1,000,000:   19s.  Last read position: 17:37,006,717
+INFO	2016-07-07 19:15:32	TagReadWithGeneExon	Processed    11,000,000 records.  Elapsed time: 00:13:42s.  Time for last 1,000,000:   20s.  Last read position: 18:56,588,160
+INFO	2016-07-07 19:15:53	TagReadWithGeneExon	Processed    12,000,000 records.  Elapsed time: 00:14:03s.  Time for last 1,000,000:   21s.  Last read position: 2:24,415,312
+INFO	2016-07-07 19:16:13	TagReadWithGeneExon	Processed    13,000,000 records.  Elapsed time: 00:14:24s.  Time for last 1,000,000:   20s.  Last read position: 2:136,542,045
+INFO	2016-07-07 19:16:33	TagReadWithGeneExon	Processed    14,000,000 records.  Elapsed time: 00:14:44s.  Time for last 1,000,000:   20s.  Last read position: 20:2,442,357
+INFO	2016-07-07 19:16:54	TagReadWithGeneExon	Processed    15,000,000 records.  Elapsed time: 00:15:04s.  Time for last 1,000,000:   20s.  Last read position: 22:42,393,579
+INFO	2016-07-07 19:17:15	TagReadWithGeneExon	Processed    16,000,000 records.  Elapsed time: 00:15:25s.  Time for last 1,000,000:   20s.  Last read position: 3:117,407,301
+INFO	2016-07-07 19:17:36	TagReadWithGeneExon	Processed    17,000,000 records.  Elapsed time: 00:15:47s.  Time for last 1,000,000:   21s.  Last read position: 4:57,896,443
+INFO	2016-07-07 19:17:58	TagReadWithGeneExon	Processed    18,000,000 records.  Elapsed time: 00:16:08s.  Time for last 1,000,000:   21s.  Last read position: 5:34,118,979
+INFO	2016-07-07 19:18:35	TagReadWithGeneExon	Processed    19,000,000 records.  Elapsed time: 00:16:46s.  Time for last 1,000,000:   37s.  Last read position: 5:148,929,654
+INFO	2016-07-07 19:19:14	AbstractAlignmentMerger	Written in coordinate order to output    20,000,000 records.  Elapsed time: 00:09:34s.  Time for last 10,000,000:  242s.  Last read position: 6:44,217,871
+INFO	2016-07-07 19:19:14	TagReadWithGeneExon	Processed    20,000,000 records.  Elapsed time: 00:17:24s.  Time for last 1,000,000:   38s.  Last read position: 6:44,217,871
+INFO	2016-07-07 19:19:53	TagReadWithGeneExon	Processed    21,000,000 records.  Elapsed time: 00:18:03s.  Time for last 1,000,000:   38s.  Last read position: 7:26,230,027
+INFO	2016-07-07 19:20:24	TagReadWithGeneExon	Processed    22,000,000 records.  Elapsed time: 00:18:35s.  Time for last 1,000,000:   31s.  Last read position: 7:140,339,202
+INFO	2016-07-07 19:20:58	TagReadWithGeneExon	Processed    23,000,000 records.  Elapsed time: 00:19:08s.  Time for last 1,000,000:   33s.  Last read position: 8:105,264,717
+INFO	2016-07-07 19:21:34	TagReadWithGeneExon	Processed    24,000,000 records.  Elapsed time: 00:19:44s.  Time for last 1,000,000:   36s.  Last read position: 9:134,342,957
+INFO	2016-07-07 19:22:08	TagReadWithGeneExon	Processed    25,000,000 records.  Elapsed time: 00:20:19s.  Time for last 1,000,000:   34s.  Last read position: MT:2,891
+INFO	2016-07-07 19:22:43	TagReadWithGeneExon	Processed    26,000,000 records.  Elapsed time: 00:20:53s.  Time for last 1,000,000:   34s.  Last read position: X:110,537,553
+INFO	2016-07-07 19:23:11	TagReadWithGeneExon	Processed    27,000,000 records.  Elapsed time: 00:21:21s.  Time for last 1,000,000:   28s.  Last read position: */*
+INFO	2016-07-07 19:23:18	TagReadWithGeneExon	Processed    28,000,000 records.  Elapsed time: 00:21:29s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:23:26	TagReadWithGeneExon	Processed    29,000,000 records.  Elapsed time: 00:21:36s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:23:34	AbstractAlignmentMerger	Written in coordinate order to output    30,000,000 records.  Elapsed time: 00:13:54s.  Time for last 10,000,000:  259s.  Last read position: */*
+INFO	2016-07-07 19:23:34	TagReadWithGeneExon	Processed    30,000,000 records.  Elapsed time: 00:21:44s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:23:41	TagReadWithGeneExon	Processed    31,000,000 records.  Elapsed time: 00:21:52s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:23:49	TagReadWithGeneExon	Processed    32,000,000 records.  Elapsed time: 00:21:59s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:23:56	TagReadWithGeneExon	Processed    33,000,000 records.  Elapsed time: 00:22:07s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:24:04	TagReadWithGeneExon	Processed    34,000,000 records.  Elapsed time: 00:22:14s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:24:12	TagReadWithGeneExon	Processed    35,000,000 records.  Elapsed time: 00:22:22s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:24:19	TagReadWithGeneExon	Processed    36,000,000 records.  Elapsed time: 00:22:29s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:24:26	TagReadWithGeneExon	Processed    37,000,000 records.  Elapsed time: 00:22:37s.  Time for last 1,000,000:    7s.  Last read position: */*
+INFO	2016-07-07 19:24:43	TagReadWithGeneExon	Processed    38,000,000 records.  Elapsed time: 00:22:53s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 19:24:59	TagReadWithGeneExon	Processed    39,000,000 records.  Elapsed time: 00:23:09s.  Time for last 1,000,000:   16s.  Last read position: */*
+INFO	2016-07-07 19:25:14	AbstractAlignmentMerger	Written in coordinate order to output    40,000,000 records.  Elapsed time: 00:15:35s.  Time for last 10,000,000:  100s.  Last read position: */*
+INFO	2016-07-07 19:25:14	TagReadWithGeneExon	Processed    40,000,000 records.  Elapsed time: 00:23:25s.  Time for last 1,000,000:   15s.  Last read position: */*
+INFO	2016-07-07 19:25:24	AbstractAlignmentMerger	Wrote 35929235 alignment records and 13805028 unmapped reads.
+[Thu Jul 07 19:25:24 PDT 2016] picard.sam.MergeBamAlignment done. Elapsed time: 23.57 minutes.
+Runtime.totalMemory()=2592079872
+INFO	2016-07-07 19:25:24	TagReadWithGeneExon	TOTAL READS [26767678] CORRECT_STRAND [25450843]  WRONG_STRAND [1115280] AMBIGUOUS_STRAND_FIXED [286450] AMBIGUOUS REJECTED READS [201555]
+[Thu Jul 07 19:25:24 PDT 2016] org.broadinstitute.dropseqrna.metrics.TagReadWithGeneExon done. Elapsed time: 23.58 minutes.
+Runtime.totalMemory()=1491075072

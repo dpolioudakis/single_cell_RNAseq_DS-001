@@ -1,0 +1,37 @@
+
+Starting Compile_RNAstar_Stats_HsMm.sh... Thu Jun 23 14:46:41 PDT 2016
+
+
+#######################################################################
+
+Lane:
+../data/bam/human_mouse/SxaQSEQsXap108L1
+Basename:
+SxaQSEQsXap108L1
+
+In dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701
+Basename:
+N701
+Log:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701/tmp/star.Log.final.out
+
+In dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702
+Basename:
+N702
+Log:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702/tmp/star.Log.final.out
+Out metadata:
+../metadata/human_mouse/RNAstar_Stats_SxaQSEQsXap108L1.txt
+
+In dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703
+Basename:
+N703
+Log:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703/tmp/star.Log.final.out
+Out metadata:
+../metadata/human_mouse/RNAstar_Stats_SxaQSEQsXap108L1.txt
+
+End of Compile_RNAstar_Stats_HsMm.sh... Thu Jun 23 14:46:42 PDT 2016

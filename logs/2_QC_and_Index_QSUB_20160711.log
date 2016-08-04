@@ -1,0 +1,217 @@
+
+Starting 2_QC_and_Index_QSUB.sh...Mon Jul 11 14:14:45 PDT 2016
+
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332118 ("QC_N701") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332119 ("QC_N702") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332120 ("QC_N703") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N704
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N704/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N704/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332121 ("QC_N704") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N705
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N705/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N705/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332122 ("QC_N705") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N706
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N706/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N706/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332123 ("QC_N706") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N707
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N707/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N707/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332124 ("QC_N707") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N710
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N710/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N710/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332125 ("QC_N710") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N711
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N711/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N711/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332126 ("QC_N711") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N712
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N712/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N712/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332127 ("QC_N712") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N714
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N714/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N714/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332128 ("QC_N714") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N715
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N715/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N715/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332129 ("QC_N715") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N716
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N716/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N716/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332130 ("QC_N716") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N718
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N718/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N718/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332131 ("QC_N718") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N719
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N719/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N719/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332132 ("QC_N719") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N720
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N720/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N720/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332133 ("QC_N720") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N721
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N721/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N721/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332134 ("QC_N721") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N722
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N722/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N722/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332135 ("QC_N722") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N723
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N723/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N723/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332136 ("QC_N723") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N724
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N724/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N724/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332137 ("QC_N724") has been submitted
+
+End of 2_QC_and_Index_QSUB.sh... Mon Jul 11 14:14:46 PDT 2016
+
+Starting 2_QC_and_Index_QSUB.sh...Mon Jul 11 14:41:15 PDT 2016
+
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N701/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332140 ("QC_N701") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N702/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332141 ("QC_N702") has been submitted
+
+Sample dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703
+In parent dir
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC
+Out dir:
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/Picard_Stats
+../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC/SxaQSEQsXap108L1/N703/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/Homo_sapiens.GRCh37.75.dna.primary_assembly_NoERCC to QC_and_Index.sh
+Your job 332142 ("QC_N703") has been submitted
+
+End of 2_QC_and_Index_QSUB.sh... Mon Jul 11 14:41:15 PDT 2016

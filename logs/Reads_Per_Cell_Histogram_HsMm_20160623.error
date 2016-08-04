@@ -1,0 +1,30 @@
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+[Thu Jun 23 15:14:36 PDT 2016] org.broadinstitute.dropseqrna.metrics.BAMTagHistogram INPUT=../data/bam/human_mouse/SxaQSEQsXap108L1/N701/star_gene_exon_tagged.bam OUTPUT=../data/bam/human_mouse/SxaQSEQsXap108L1/N701/out_cell_readcounts.txt.gz TAG=XC    FILTER_PCR_DUPLICATES=false READ_QUALITY=10 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jun 23 15:14:36 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater
+INFO	2016-06-23 15:15:02	BAMTagHistogram	Processed    10,000,000 records.  Elapsed time: 00:00:25s.  Time for last 10,000,000:   25s.  Last read position: HUMAN_6:102,464,550
+INFO	2016-06-23 15:15:27	BAMTagHistogram	Processed    20,000,000 records.  Elapsed time: 00:00:51s.  Time for last 10,000,000:   25s.  Last read position: HUMAN_15:56,729,779
+INFO	2016-06-23 15:15:52	BAMTagHistogram	Processed    30,000,000 records.  Elapsed time: 00:01:15s.  Time for last 10,000,000:   24s.  Last read position: hs37d5:2,539,897
+INFO	2016-06-23 15:16:17	BAMTagHistogram	Processed    40,000,000 records.  Elapsed time: 00:01:40s.  Time for last 10,000,000:   24s.  Last read position: MOUSE_MT:2,594
+INFO	2016-06-23 15:16:34	BAMTagHistogram	Processed    50,000,000 records.  Elapsed time: 00:01:58s.  Time for last 10,000,000:   17s.  Last read position: */*
+[Thu Jun 23 15:16:39 PDT 2016] org.broadinstitute.dropseqrna.metrics.BAMTagHistogram done. Elapsed time: 2.06 minutes.
+Runtime.totalMemory()=1767899136
+[Thu Jun 23 15:16:40 PDT 2016] org.broadinstitute.dropseqrna.metrics.BAMTagHistogram INPUT=../data/bam/human_mouse/SxaQSEQsXap108L1/N702/star_gene_exon_tagged.bam OUTPUT=../data/bam/human_mouse/SxaQSEQsXap108L1/N702/out_cell_readcounts.txt.gz TAG=XC    FILTER_PCR_DUPLICATES=false READ_QUALITY=10 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jun 23 15:16:40 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater
+INFO	2016-06-23 15:17:05	BAMTagHistogram	Processed    10,000,000 records.  Elapsed time: 00:00:25s.  Time for last 10,000,000:   25s.  Last read position: HUMAN_6:32,239,649
+INFO	2016-06-23 15:17:31	BAMTagHistogram	Processed    20,000,000 records.  Elapsed time: 00:00:51s.  Time for last 10,000,000:   25s.  Last read position: HUMAN_13:108,472,163
+INFO	2016-06-23 15:17:56	BAMTagHistogram	Processed    30,000,000 records.  Elapsed time: 00:01:16s.  Time for last 10,000,000:   25s.  Last read position: HUMAN_GL000220.1:109,586
+INFO	2016-06-23 15:18:21	BAMTagHistogram	Processed    40,000,000 records.  Elapsed time: 00:01:41s.  Time for last 10,000,000:   24s.  Last read position: MOUSE_MT:1,094
+INFO	2016-06-23 15:18:40	BAMTagHistogram	Processed    50,000,000 records.  Elapsed time: 00:02:00s.  Time for last 10,000,000:   19s.  Last read position: */*
+INFO	2016-06-23 15:18:57	BAMTagHistogram	Processed    60,000,000 records.  Elapsed time: 00:02:17s.  Time for last 10,000,000:   17s.  Last read position: */*
+[Thu Jun 23 15:18:59 PDT 2016] org.broadinstitute.dropseqrna.metrics.BAMTagHistogram done. Elapsed time: 2.33 minutes.
+Runtime.totalMemory()=1712324608
+[Thu Jun 23 15:18:59 PDT 2016] org.broadinstitute.dropseqrna.metrics.BAMTagHistogram INPUT=../data/bam/human_mouse/SxaQSEQsXap108L1/N703/star_gene_exon_tagged.bam OUTPUT=../data/bam/human_mouse/SxaQSEQsXap108L1/N703/out_cell_readcounts.txt.gz TAG=XC    FILTER_PCR_DUPLICATES=false READ_QUALITY=10 VERBOSITY=INFO QUIET=false VALIDATION_STRINGENCY=STRICT COMPRESSION_LEVEL=5 MAX_RECORDS_IN_RAM=500000 CREATE_INDEX=false CREATE_MD5_FILE=false GA4GH_CLIENT_SECRETS=client_secrets.json
+[Thu Jun 23 15:18:59 PDT 2016] Executing as dpolioud@dg-compute-0-3.local on Linux 2.6.32-431.11.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.7.0_51-b13; Picard version: 1.12(d3aeea7_1452606774) IntelDeflater
+INFO	2016-06-23 15:19:26	BAMTagHistogram	Processed    10,000,000 records.  Elapsed time: 00:00:25s.  Time for last 10,000,000:   25s.  Last read position: HUMAN_7:78,028,854
+INFO	2016-06-23 15:19:51	BAMTagHistogram	Processed    20,000,000 records.  Elapsed time: 00:00:51s.  Time for last 10,000,000:   25s.  Last read position: HUMAN_17:67,479,952
+INFO	2016-06-23 15:20:16	BAMTagHistogram	Processed    30,000,000 records.  Elapsed time: 00:01:16s.  Time for last 10,000,000:   25s.  Last read position: MOUSE_Y:65,215,907
+INFO	2016-06-23 15:20:34	BAMTagHistogram	Processed    40,000,000 records.  Elapsed time: 00:01:34s.  Time for last 10,000,000:   18s.  Last read position: */*
+[Thu Jun 23 15:20:36 PDT 2016] org.broadinstitute.dropseqrna.metrics.BAMTagHistogram done. Elapsed time: 1.61 minutes.
+Runtime.totalMemory()=1884291072

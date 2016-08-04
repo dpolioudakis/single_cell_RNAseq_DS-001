@@ -1,0 +1,11 @@
+-bash: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+-bash: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/usr/bin/modulecmd bash $*`'
+-bash: error importing function definition for `BASH_FUNC_module'
+Loading required package: rJava
+Loading required package: methods
+Loading required package: xlsxjars
+Warning messages:
+1: In dir.create(outdir, recursive = TRUE) :
+  '../data/fastq/SxaQSEQsXap108L1' already exists
+2: In dir.create(outdir, recursive = TRUE) :
+  '../data/fastq/SxaQSEQsXap110L1' already exists

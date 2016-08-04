@@ -1,0 +1,30 @@
+
+Input directory:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701/Picard_Stats
+Sample ID:
+N701/Picard_Stats
+Getting rnaseq stats
+Getting gcbias summary
+Getting gcbias stats
+Getting alignment summary
+Getting duplication summary
+
+Input directory:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702/Picard_Stats
+Sample ID:
+N702/Picard_Stats
+Getting rnaseq stats
+Getting gcbias summary
+Getting gcbias stats
+Getting alignment summary
+Getting duplication summary
+
+Input directory:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703/Picard_Stats
+Sample ID:
+N703/Picard_Stats
+Getting rnaseq stats
+Getting gcbias summary
+Getting gcbias stats
+Getting alignment summary
+Getting duplication summary

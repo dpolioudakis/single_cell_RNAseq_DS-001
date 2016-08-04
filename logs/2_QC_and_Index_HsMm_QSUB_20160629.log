@@ -1,0 +1,32 @@
+
+Starting 2_QC_and_Index_HsMm_QSUB.sh...Wed Jun 29 15:08:50 PDT 2016
+
+
+Sample dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701
+In parent dir
+../data/bam/human_mouse
+Out dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701/Picard_Stats
+../data/bam/human_mouse/SxaQSEQsXap108L1/N701/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/human_mouse to QC_and_Index.sh
+Your job 322217 ("QC_N701") has been submitted
+
+Sample dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702
+In parent dir
+../data/bam/human_mouse
+Out dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702/Picard_Stats
+../data/bam/human_mouse/SxaQSEQsXap108L1/N702/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/human_mouse to QC_and_Index.sh
+Your job 322218 ("QC_N702") has been submitted
+
+Sample dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703
+In parent dir
+../data/bam/human_mouse
+Out dir:
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703/Picard_Stats
+../data/bam/human_mouse/SxaQSEQsXap108L1/N703/Picard_Stats/PEmatched_markdup_sorted.bai does not exist, qsubbing ../data/bam/human_mouse to QC_and_Index.sh
+Your job 322219 ("QC_N703") has been submitted
+
+End of 2_QC_and_Index_HsMm_QSUB.sh... Wed Jun 29 15:08:50 PDT 2016

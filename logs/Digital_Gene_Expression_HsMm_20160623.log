@@ -1,0 +1,26 @@
+
+Starting Digital_Gene_Expression_HsMm.sh... Thu Jun 23 15:51:51 PDT 2016
+
+
+Sample ID:
+N701
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/digital_gene_expression_human_mouse/SxaQSEQsXap108L1/N701
+Running Drop-seq DigitalExpression for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N701/star_gene_exon_tagged.bam
+
+Sample ID:
+N702
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/digital_gene_expression_human_mouse/SxaQSEQsXap108L1/N702
+Running Drop-seq DigitalExpression for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N702/star_gene_exon_tagged.bam
+
+Sample ID:
+N703
+Alignment output directory:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/digital_gene_expression_human_mouse/SxaQSEQsXap108L1/N703
+Running Drop-seq DigitalExpression for:
+/geschwindlabshares/RNAseq_singlecellfetal/DS-001_DP/data/bam/human_mouse/SxaQSEQsXap108L1/N703/star_gene_exon_tagged.bam
+
+End of Digital_Gene_Expression_HsMm.sh... Thu Jun 23 16:02:11 PDT 2016
